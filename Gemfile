@@ -5,9 +5,6 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -20,19 +17,21 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+group :development do
+  gem 'capistrano'
+  gem 'rvm-capistrano'
+  gem 'better_errors'
+  gem 'awesome_print'
+  gem 'binding_of_caller'
+  gem 'sqlite3'
+end
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+group :production do
+  gem 'mysql2'
+  gem 'unicorn'
+end
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
+# To use jQuery (disabling jQuery 1.9.1 due to issues with Taxonomies)
+gem 'jquery-rails', '~> 2.2.0'
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
+gem 'spree', '~> 1.3.3'
