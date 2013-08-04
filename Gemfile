@@ -35,3 +35,4 @@ end
 gem 'jquery-rails', '~> 2.2.0'
 
 gem 'spree', '~> 1.3.3'
+gem 'spree_auth_devise', '~> 1.3.1'
