@@ -1,0 +1,22 @@
+// Place all the styles related to the Landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#left-column {
+  float: left;
+  width: 40%;
+  height: 460px;
+  text-align: right;
+  line-height: 22px;
+}
+
+#right-column {
+  float: right;
+  width: 60%;
+  background-image: url("/assets/sfi/sfi-photo04.png");
+  background-position: top right;
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: 495px 450px;
+  padding-left: 20px;
+}

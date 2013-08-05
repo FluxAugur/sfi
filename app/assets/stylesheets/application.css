@@ -9,5 +9,9 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+
+ *= require_directory ./admin
+ *= require sfi/spree-fancy-variables
+ *= require sfi/spree-screen
+ *= require_directory ./store
  */

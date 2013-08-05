@@ -1,0 +1,91 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="<%= I18n.locale %>"><!--<![endif]-->
+<head>
+  <title>Sanitary Fabricators Incorporated</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= stylesheet_link_tag "sfi/styles", :media => "all" %>
+  <%= stylesheet_link_tag "landing", :media => "all" %>
+  <%= stylesheet_link_tag "contact", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
+<div id="sfi-container">
+  <!--header-->
+
+  <% if spree_current_user %>
+      <div id="sfi-login">
+        <%if spree_current_user.has_spree_role?("admin") %>
+            <a style="padding-right: 20px;" href="/admin">Admin</a>
+        <% end %>
+        <a style="padding-right: 20px;" href="/account">My Account</a><a href="/logout">Logout</a></div>
+  <% else %>
+      <div id="sfi-login"><a href="/login">Login</a></div>
+  <% end %>
+
+  <div id="sfi-headermetaltexture"></div>
+  <div id="sfi-navbar">
+    <ul class="item">
+      <li>
+        <%= link_to "Home", "/", class: 'home' %>
+      </li>
+      <li>
+        <a href="#" class="blank">&nbsp;</a>
+      </li>
+      <li>
+        <%= link_to "Services", "/services", class: 'services'  %>
+      </li>
+      <li>
+        <%= link_to "Sell", "/sell-equipment", class: 'sell'  %>
+      </li>
+      <li>
+        <%= link_to "Buy", "/products", class: 'buy'  %>
+      </li>
+      <li>
+        <%= link_to "Consulting", "/consulting", class: 'consulting'  %>
+      </li>
+      <li>
+        <%= link_to "Contact", "/contact", class: 'contact'  %>
+      </li>
+    </ul>
+  </div>
+  <div id="sfi-searchboxdiv">
+    <%= form_tag("/products", method: "get") do %>
+        <%= search_field_tag 'keywords', nil, placeholder: 'Search equipment', class: 'sfi-searchbox', id:'search' %>
+        <%= image_submit_tag("sfi/findicon.png", id: 'sfi-findicon') %>
+    <% end %>
+  </div>
+  <div id="sfi-logoSFI"></div>
+  <div id="sfi-phone"><a href="/cart"><i class="icon-basket-2"></i> </a>843-479-2616</div>
+
+  <!--content-->
+  <div id="sfi-bandorange"></div>
+  <div id="sfi-boxwhite" class="row" data-hook>
+    <%= breadcrumbs(@taxon) %>
+    <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve" %>" data-hook>
+      <%= flash_messages %>
+      <%= yield %>
+    </div>
+    <!--footer-->
+    <div id="sfi-footergray">
+      <div id="sfi-textsitemap">
+        <%= link_to "Home", "/" %><br />
+        <%= link_to "About", "#" %><br />
+        <%= link_to "Services", "/services" %><br />
+        <%= link_to "Sell", "/sell-equipment" %><br />
+        <%= link_to "Buy", "/products" %><br />
+        <%= link_to "Consulting", "/consulting" %><br />
+        <%= link_to "Contact", "/contact" %><br />
+      </div>
+      <div id="sfi-textcopyright">&copy;2013 SFI Industries. All rights reserved.</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
