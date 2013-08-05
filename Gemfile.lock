@@ -1,4 +1,23 @@
 GIT
+  remote: git://github.com/dotsi/spree_advanced_reporting.git
+  revision: a35c21e7ba2b7b281abd3e2f1b869a2c71983e83
+  branch: 1-3-stable
+  specs:
+    spree_advanced_reporting (2.0.0)
+      ruport (>= 1.6.3)
+      ruport-util
+      spree_core
+
+GIT
+  remote: git://github.com/spree/spree_active_shipping.git
+  revision: 80d4867b70e232557029731b45091879df946d64
+  branch: 1-3-stable
+  specs:
+    spree_active_shipping (1.1.0)
+      active_shipping (~> 0.9.13)
+      spree_core (~> 1.0)
+
+GIT
   remote: git://github.com/spree/spree_auth_devise.git
   revision: b2b82f1bbe4b47a0713bcf70af8b3c17fa39c0d0
   branch: 1-3-stable
@@ -92,6 +111,12 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
+    active_shipping (0.9.15)
+      active_utils (>= 1.0.1)
+      activesupport (>= 2.3.5)
+      builder
+      i18n
+      json (>= 1.5.1)
     active_utils (2.0.0)
       activesupport (>= 2.3.11)
       i18n
@@ -156,6 +181,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    color (1.4.2)
     debug_inspector (0.0.2)
     deface (0.9.1)
       nokogiri (~> 1.5.0)
@@ -170,6 +196,7 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    fastercsv (1.5.5)
     ffaker (1.15.0)
     gyoku (0.4.6)
       builder (>= 2.1.2)
@@ -194,6 +221,8 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    mailfactory (1.4.0)
+      mime-types (>= 1.13.1)
     mime-types (1.23)
     money (5.0.0)
       i18n (~> 0.4)
@@ -216,6 +245,9 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
+    pdf-writer (1.1.8)
+      color (>= 1.4.0)
+      transaction-simple (~> 1.3)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -252,6 +284,14 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    rubyzip (0.9.9)
+    ruport (1.6.3)
+      fastercsv
+      pdf-writer (= 1.1.8)
+    ruport-util (0.14.0)
+      mailfactory (>= 1.2.3)
+      rubyzip (>= 0.9.1)
+      ruport (>= 1.6.0)
     rvm-capistrano (1.4.1)
       capistrano (>= 2.0.0)
     sass (3.2.10)
@@ -279,6 +319,7 @@ GEM
     stringex (1.3.3)
     thor (0.18.1)
     tilt (1.4.1)
+    transaction-simple (1.4.0.2)
     treetop (1.4.14)
       polyglot
       polyglot (>= 0.3.1)
@@ -317,6 +358,8 @@ DEPENDENCIES
   rvm-capistrano
   sass-rails (~> 3.2.3)
   spree!
+  spree_active_shipping!
+  spree_advanced_reporting!
   spree_auth_devise!
   spree_gateway!
   spree_static_content!

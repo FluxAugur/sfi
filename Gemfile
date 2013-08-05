@@ -34,9 +34,13 @@ end
 # To use jQuery (disabling jQuery 1.9.1 due to issues with Taxonomies)
 gem 'jquery-rails', '~> 2.2.0'
 
-# Spree Commerce related gems
+# To use official Spree Commerce related gems
 gem 'spree', github: 'synaptian/spree', branch: '1-3-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '1-3-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '1-3-stable'
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '1-3-stable'
 gem 'spree_volume_pricing', github: 'spree/spree_volume_pricing', branch: '1-3-stable'
+gem 'spree_active_shipping', github: 'spree/spree_active_shipping', branch: '1-3-stable'
+
+# To use unofficial (third-party) Spree Commerce related gems
+gem 'spree_advanced_reporting', github: 'dotsi/spree_advanced_reporting', branch: '1-3-stable'
