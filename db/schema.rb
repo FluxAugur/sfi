@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130804231354) do
+ActiveRecord::Schema.define(:version => 20130805073449) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -236,6 +236,27 @@ ActiveRecord::Schema.define(:version => 20130804231354) do
 
   add_index "spree_orders", ["number"], :name => "index_spree_orders_on_number"
 
+  create_table "spree_pages", :force => true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.string   "slug"
+    t.datetime "created_at",                                  :null => false
+    t.datetime "updated_at",                                  :null => false
+    t.boolean  "show_in_header",           :default => false, :null => false
+    t.boolean  "show_in_footer",           :default => false, :null => false
+    t.string   "foreign_link"
+    t.integer  "position",                 :default => 1,     :null => false
+    t.boolean  "visible",                  :default => true
+    t.string   "meta_keywords"
+    t.string   "meta_description"
+    t.string   "layout"
+    t.boolean  "show_in_sidebar",          :default => false, :null => false
+    t.string   "meta_title"
+    t.boolean  "render_layout_as_partial", :default => false
+  end
+
+  add_index "spree_pages", ["slug"], :name => "index_pages_on_slug"
+
   create_table "spree_payment_methods", :force => true do |t|
     t.string   "type"
     t.string   "name"
@@ -249,7 +270,7 @@ ActiveRecord::Schema.define(:version => 20130804231354) do
   end
 
   create_table "spree_payments", :force => true do |t|
-    t.decimal  "amount",            :precision => 10, :scale => 2, :default => 0.0, :null => false
+    t.decimal  "amount",               :precision => 10, :scale => 2, :default => 0.0, :null => false
     t.integer  "order_id"
     t.integer  "source_id"
     t.string   "source_type"
@@ -257,9 +278,11 @@ ActiveRecord::Schema.define(:version => 20130804231354) do
     t.string   "state"
     t.string   "response_code"
     t.string   "avs_response"
-    t.datetime "created_at",                                                        :null => false
-    t.datetime "updated_at",                                                        :null => false
+    t.datetime "created_at",                                                           :null => false
+    t.datetime "updated_at",                                                           :null => false
     t.string   "identifier"
+    t.string   "cvv_response_code"
+    t.string   "cvv_response_message"
   end
 
   add_index "spree_payments", ["order_id"], :name => "index_spree_payments_on_order_id"
@@ -321,6 +344,7 @@ ActiveRecord::Schema.define(:version => 20130804231354) do
   add_index "spree_products", ["deleted_at"], :name => "index_spree_products_on_deleted_at"
   add_index "spree_products", ["name"], :name => "index_spree_products_on_name"
   add_index "spree_products", ["permalink"], :name => "index_spree_products_on_permalink"
+  add_index "spree_products", ["permalink"], :name => "permalink_idx_unique", :unique => true
 
   create_table "spree_products_promotion_rules", :id => false, :force => true do |t|
     t.integer "product_id"
@@ -443,6 +467,17 @@ ActiveRecord::Schema.define(:version => 20130804231354) do
     t.datetime "deleted_at"
     t.datetime "created_at",           :null => false
     t.datetime "updated_at",           :null => false
+  end
+
+  create_table "spree_skrill_transactions", :force => true do |t|
+    t.string   "email"
+    t.float    "amount"
+    t.string   "currency"
+    t.integer  "transaction_id"
+    t.integer  "customer_id"
+    t.string   "payment_type"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
   end
 
   create_table "spree_state_changes", :force => true do |t|

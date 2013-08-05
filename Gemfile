@@ -34,5 +34,7 @@ end
 # To use jQuery (disabling jQuery 1.9.1 due to issues with Taxonomies)
 gem 'jquery-rails', '~> 2.2.0'
 
-gem 'spree', '~> 1.3.3'
-gem 'spree_auth_devise', '~> 1.3.1'
+gem 'spree', github: 'synaptian/spree', branch: '1-3-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '1-3-stable'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '1-3-stable'
+gem 'spree_static_content', github: 'slingerbv/spree_static_content', branch: 'master'
