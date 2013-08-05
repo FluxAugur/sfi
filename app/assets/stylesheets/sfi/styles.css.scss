@@ -3,7 +3,7 @@ body {
   padding: 0;
   border-top: 0px;
   background-color: #fff;
-  background-image: image-url('/assets/sfi/backgroundmetal.png');
+  background-image: image-url('sfi/backgroundmetal.png');
   background-repeat: repeat-y;
   background-position: center;
 }
@@ -37,7 +37,7 @@ body {
   height: 182px;
   margin-left: 20px;
   z-index: 4;
-  background-image: image-url('/assets/sfi/headermetaltexture.png');
+  background-image: image-url('sfi/headermetaltexture.png');
   background-repeat: no-repeat;
 }
 
@@ -49,7 +49,7 @@ body {
   height: 21px;
   margin-left: 20px;
   z-index: 5;
-  background-color:#e7a04c;
+  background-color:#E7913C;
 }
 
 #sfi-textcopyright {
@@ -87,7 +87,7 @@ a, a:visited, a:hover{
 }
 
 #content {
-  padding: 20px;
+  padding: 30px 20px;
   margin: 0px;
   border-style: solid;
   border-width: 1px;
@@ -127,7 +127,7 @@ a, a:visited, a:hover{
   width: 160px;
   height: 130px;
   z-index: 18;
-  background-image: image-url('/assets/sfi/logoSFI.png');
+  background-image: image-url('sfi/logoSFI.png');
 }
 
 #sfi-phone {
@@ -137,7 +137,7 @@ a, a:visited, a:hover{
   width: 300px;
   height: 28px;
   z-index: 19;
-  color: #e7a04c;
+  color: #E7913C;
   font-size: 30pt;
   font-weight: bold;
   font-family: Arial;
@@ -145,11 +145,16 @@ a, a:visited, a:hover{
   text-shadow:1px 1px #2e2e2e;
 }
 
-i.icon-basket-2 {
+i.icon-basket {
   left: 0px;
   position: absolute;
   top: -6px;
   color: #E7A04C;
+  background-image: image-url('sfi/cart.png');
+  background-size: 40px;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
 }
 
 #sfi-login {
@@ -164,15 +169,15 @@ i.icon-basket-2 {
 .flash.success {
   background-color: transparent !important;
 }
-
-#taxon-crumbs {
-  position: absolute;
-  top: 100px;
+/*Don't show static pages title on each page*/
+h1 {
+  height: 0px;
+  color: transparent;
 }
 
 /*Nav Buttons*/
 #sfi-navbar {
-  background-image: image-url('/assets/sfi/metaltexture.png');
+  background-image: image-url('sfi/metaltexture.png');
   left: 50px;
   top: 111px;
   position: absolute;
@@ -191,13 +196,14 @@ i.icon-basket-2 {
 #sfi-navbar a:link,
 #sfi-navbar a:visited {
   color:#000;
-  padding: 2px 0px 3px 0px;
+  padding: 4px 0px 3px 0px;
   float:left;
   text-align: center;
   border-style: solid;
   border-color: #a0a0a0;
   border-width: 1px 0px 1px 1px;
   text-align: center;
+  height: 30px;
 }
 
 .home {
@@ -240,9 +246,9 @@ i.icon-basket-2 {
   height: 31px;
   left: 50%;
   margin-left: -450px;
-  top: 150px;
+  top: -1px;
   padding-left: 20px;
-  padding-top: 3px;
+  padding-top: 6px;
 }
 .sell-title {
   background-color: #AD7C40;
@@ -254,7 +260,6 @@ i.icon-basket-2 {
 
 .buy-title {
   background-color: #AD4B40;
-  top: -1px !important;
 }
 
 /*Spree overrides for products page*/
@@ -275,7 +280,7 @@ ul#products li {
   padding-top: 20px;
 }
 
-ul#products li .product-image a {
+ul#products li .product-image {
   border-width: 0px;
 }
 
@@ -302,68 +307,58 @@ nav#taxonomies .taxonomy-root {
   color: #e7a04c;
 }
 
-/*Spree overrides for individual products page*/
-
-#item-page-images #main-image {
-  border: 0px !important;
+#product-price {
+  padding-top: 15px;
 }
 
-.columns.alph {
-  position:absolute;
-  top:0px;
-  width:30%;
-  float:left;
+/*Landing page*/
+#left-column {
+  float: left;
+  width: 40%;
+  height: 460px;
+  text-align: right;
+  line-height: 22px;
 }
 
-.columns.omeg {
-  width: 60%;
-  position:absolute;
-  top:0px;
-  right:0px;
-  text-align: left;
+#right-column {
   float: right;
-  padding-bottom: 45px;
-  margin-right: 20px;
-  border-bottom: 2px solid #DDD;
+  width: 60%;
+  background-image: url("/assets/sfi/sfi-photo04.png");
+  background-position: top right;
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: 495px 450px;
+  padding-left: 20px;
 }
 
-.alpha.omega.ten.columns {
-  border: 0px !important;
+h1 {
+  height: 0px;
+  color: transparent;
 }
 
-[data-hook="product_price"] {
-  position: absolute !important;
-  top: 30px !important;
-  left: 0px !important;
+/*Contact page*/
+#contact-left-column {
+  float: left;
+  width: 40%;
+  height: 460px;
 }
 
-.add-to-cart input[type="number"] {
-  height: 40px;
-  width: 80px;
-  top: -6px;
-  position: absolute;
+#top-image {
+  width: 100%
 }
 
-.add-to-cart {
-  position: absolute !important;
-  left: 0px !important;
-  width: 100%;
-  margin-left: 270px;
+#contact-info {
+  margin-left: 40px;
+  line-height: 19px;
 }
 
-button#add-to-cart-button {
-  position: absolute;
-  top: -5px;
-  right: -90px;
-}
-
-#product-description {
-  top: 100px;
-  position: absolute;
-  margin-left: 20px;
-}
-
-.price.selling {
-  font-family: arial;
-  color: #555;
+#contact-right-column {
+  float: right;
+  width: 60%;
+  background-image: url("/assets/sfi/sfi-photo01.png");
+  background-position: top right;
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: 495px 450px;
+  padding-left: 20px;
 }
