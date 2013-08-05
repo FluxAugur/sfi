@@ -44,3 +44,4 @@ gem 'spree_active_shipping', github: 'spree/spree_active_shipping', branch: '1-3
 
 # To use unofficial (third-party) Spree Commerce related gems
 gem 'spree_advanced_reporting', github: 'dotsi/spree_advanced_reporting', branch: '1-3-stable'
+gem 'spree_contact_us', github: 'jdutil/spree_contact_us', branch: '1-3-stable'
