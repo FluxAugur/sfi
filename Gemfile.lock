@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/DynamoMTL/spree_chimpy.git
+  revision: dd9e4d3592c1d2c5971a551e7e6cbd8ccbb287e7
+  branch: master
+  specs:
+    spree_chimpy (1.3.2)
+      mailchimp
+      spree_core (~> 1.2)
+
+GIT
   remote: git://github.com/dotsi/spree_advanced_reporting.git
   revision: a35c21e7ba2b7b281abd3e2f1b869a2c71983e83
   branch: 1-3-stable
@@ -257,6 +266,8 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    mailchimp (0.0.9)
+      httparty
     mailfactory (1.4.0)
       mime-types (>= 1.13.1)
     mime-types (1.23)
@@ -426,6 +437,7 @@ DEPENDENCIES
   spree_active_shipping!
   spree_advanced_reporting!
   spree_auth_devise!
+  spree_chimpy!
   spree_contact_us!
   spree_gateway!
   spree_social!
