@@ -169,6 +169,11 @@ i.icon-basket {
 .flash.success {
   background-color: transparent !important;
 }
+/*Don't show static pages title on each page*/
+h1 {
+  height: 0px;
+  color: transparent;
+}
 
 /*Nav Buttons*/
 #sfi-navbar {
@@ -302,56 +307,58 @@ nav#taxonomies .taxonomy-root {
   color: #e7a04c;
 }
 
-/*Spree overrides for individual products page
-
-#item-page-images #main-image {
-  margin-top: 20px;
-}
-
-.columns.alph {
-  position:absolute;
-  top:0px;
-  width:30%;
-  float:left;
-}
-
-.columns.omeg {
-  width: 60%;
-  position:absolute;
-  top:0px;
-  right:0px;
-  text-align: left;
-  float: right;
-  padding-bottom: 45px;
-  margin-right: 20px;
-}
-
-.alpha.omega.ten.columns {
-  border: 0px !important;
-}
-
-[data-hook="product_price"] {
-  position: absolute !important;
-  top: 30px !important;
-  left: 0px !important;
-}
-
-#product-description {
-  margin-top: 20px;
-}
-
-.price.selling {
-  font-family: arial;
-  color: #555;
-}
-
 #product-price {
   padding-top: 15px;
 }
 
-#taxon-crumbs {
-  position: absolute;
-  top: 175px;
+/*Landing page*/
+#left-column {
+  float: left;
+  width: 40%;
+  height: 460px;
+  text-align: right;
+  line-height: 22px;
 }
 
-*/
+#right-column {
+  float: right;
+  width: 60%;
+  background-image: url("/assets/sfi/sfi-photo04.png");
+  background-position: top right;
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: 495px 450px;
+  padding-left: 20px;
+}
+
+h1 {
+  height: 0px;
+  color: transparent;
+}
+
+/*Contact page*/
+#contact-left-column {
+  float: left;
+  width: 40%;
+  height: 460px;
+}
+
+#top-image {
+  width: 100%
+}
+
+#contact-info {
+  margin-left: 40px;
+  line-height: 19px;
+}
+
+#contact-right-column {
+  float: right;
+  width: 60%;
+  background-image: url("/assets/sfi/sfi-photo01.png");
+  background-position: top right;
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: 495px 450px;
+  padding-left: 20px;
+}
