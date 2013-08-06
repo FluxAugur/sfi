@@ -51,11 +51,13 @@
     <orderEntry type="library" scope="PROVIDED" name="delayed_job_active_record (v4.0.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v2.2.5, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise-encryptable (v0.1.2, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dotenv (v0.8.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faraday (v0.8.8, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fastercsv (v1.5.5, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffaker (v1.15.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="foreman (v0.63.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="gyoku (v0.4.6, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hashie (v2.0.5, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="highline (v1.6.18, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
