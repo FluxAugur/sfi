@@ -29,6 +29,7 @@ end
 group :production do
   gem 'mysql2'
   gem 'unicorn'
+  gem 'foreman'
 end
 
 # To use jQuery (disabling jQuery 1.9.1 due to issues with Taxonomies)
