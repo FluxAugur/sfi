@@ -41,12 +41,13 @@ gem 'spree_gateway', github: 'spree/spree_gateway', branch: '1-3-stable'
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '1-3-stable'
 gem 'spree_volume_pricing', github: 'spree/spree_volume_pricing', branch: '1-3-stable'
 gem 'spree_active_shipping', github: 'spree/spree_active_shipping', branch: '1-3-stable'
-gem 'spree_social', github: 'spree/spree_social', branch: '1-3-stable'
+gem = gem 'spree_social', github: 'spree/spree_social', branch: '1-3-stable'
+gem
 
 # To use unofficial (third-party) Spree Commerce related gems
 gem 'spree_advanced_reporting', github: 'dotsi/spree_advanced_reporting', branch: '1-3-stable'
 gem 'spree_contact_us', github: 'jdutil/spree_contact_us', branch: '1-3-stable'
-gem 'synergy_inventory_management', github: 'mixan946/synergy_inventory_management', branch: 'master'
+# gem 'synergy_inventory_management', github: 'synaptian/synergy_inventory_management', branch: 'master'
 gem 'spree_chimpy', github: 'DynamoMTL/spree_chimpy', branch: 'master'
 
 # To use Twitter Bootstrap with Spree (requires spree ~> '2.0.0')

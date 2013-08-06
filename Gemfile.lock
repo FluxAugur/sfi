@@ -26,14 +26,6 @@ GIT
       spree_core (~> 1.3.1)
 
 GIT
-  remote: git://github.com/mixan946/synergy_inventory_management.git
-  revision: 3c77ce9371f21c5589014cb075b6e6197e77b562
-  branch: master
-  specs:
-    synergy_inventory_management (1.3.0)
-      spree_core (>= 1.3.0)
-
-GIT
   remote: git://github.com/spree/spree_active_shipping.git
   revision: 80d4867b70e232557029731b45091879df946d64
   branch: 1-3-stable
@@ -64,7 +56,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_social.git
-  revision: 47f5239857f41234103b9c8abf62e8e41b258a57
+  revision: 417bb39ac4a2c51c004ea8174ad33782913ebc93
   branch: 1-3-stable
   specs:
     spree_social (2.3.0)
@@ -94,7 +86,7 @@ GIT
 
 GIT
   remote: git://github.com/synaptian/spree.git
-  revision: f72d23b968f98ee4f715fa13324084387d20afa8
+  revision: de2f507dca3e8f9c73a791d6f49e9c26db0fba68
   branch: 1-3-stable
   specs:
     spree (1.3.3)
@@ -444,6 +436,5 @@ DEPENDENCIES
   spree_static_content!
   spree_volume_pricing!
   sqlite3
-  synergy_inventory_management!
   uglifier (>= 1.0.3)
   unicorn

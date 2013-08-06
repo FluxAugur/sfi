@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3027007054">
+    <data-source source="LOCAL" name="Rails sfi: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="b5537cf5-5e15-445c-9b25-43ea35994847">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/SFI_development</jdbc-url>
+      <user-name>SFI</user-name>
+      <user-password>dfdddfcfdfc6dfc5dfdcdfcfdfc8dfdfdfc8dfc8dfc6dfcfdfd9</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails sfi: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="9ea7e65c-eff8-4458-b156-0ff3e9074c59">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/SFI_test</jdbc-url>
+      <user-name>SFI</user-name>
+      <user-password>dfdddfcfdfc6dfc5dfdcdfcfdfc8dfdfdfc8dfc8dfc6dfcfdfd9</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails sfi: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="c64bf3da-7b55-4bd2-a498-17a10ddb9a7a">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/SFI_production</jdbc-url>
+      <user-name>SFI</user-name>
+      <user-password>dfdddfcfdfc6dfc5dfdcdfcfdfc8dfdfdfc8dfc8dfc6dfcfdfd9</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-java-5.1.18-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
