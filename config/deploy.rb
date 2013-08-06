@@ -8,7 +8,7 @@ set :git
 role :web, "bacchus.sanitaryfabricators.com"                          # Your HTTP server, Apache/etc
 role :app, "bacchus.sanitaryfabricators.com"                     # This may be the same as your `Web` server
 role :db,  "bacchus.sanitaryfabricators.com", :primary => true # This is where Rails migrations will run
-role :db,  "your slave db-server here"
+# role :db,  "your slave db-server here"
 
 # if you want to clean up old releases on each deploy uncomment this:
 # after "deploy:restart", "deploy:cleanup"
