@@ -17,6 +17,10 @@
   padding-left: 20px;
 }
 
-h1 {
+h1.off {
   display: none;
+}
+
+h1.on {
+  display: inline;
 }
