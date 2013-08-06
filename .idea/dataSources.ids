@@ -33,6 +33,8 @@
     <jdbc-url>jdbc:mysql://127.0.0.1/SFI_production</jdbc-url>
     <user-name>SFI</user-name>
     <user-password>dfdddfcfdfc6dfc5dfdcdfcfdfc8dfdfdfc8dfc8dfc6dfcfdfd9</user-password>
+    <schema-pattern>SFI_production.*</schema-pattern>
+    <default-dialect>MySQL</default-dialect>
     <libraries>
       <library>
         <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-license.txt</url>
