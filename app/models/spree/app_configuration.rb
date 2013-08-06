@@ -23,7 +23,7 @@ module Spree
     # Alphabetized to more easily lookup particular preferences
     preference :address_requires_state, :boolean, :default => true # should state/state_name be required
     preference :admin_interface_logo, :string, :default => 'sfi/bg/logo_SFI.png'
-    preference :admin_products_per_page, :integer, :default => 10
+    preference :admin_products_per_page, :integer, :default => 50
     preference :allow_backorder_shipping, :boolean, :default => false # should only be true if you don't need to track inventory
     preference :allow_backorders, :boolean, :default => true
     preference :allow_checkout_on_gateway_error, :boolean, :default => false
@@ -44,13 +44,13 @@ module Spree
     preference :currency_decimal_mark, :string, :default => "."
     preference :currency_symbol_position, :string, :default => "before"
     preference :currency_thousands_separator, :string, :default => ","
-    preference :display_currency, :boolean, :default => false
+    preference :display_currency, :boolean, :default => true
     preference :default_country_id, :integer
     preference :default_meta_description, :string, :default => 'Sanitary Fabricators Incorporated'
     preference :default_meta_keywords, :string, :default => 'sanitary fabricators incorporated, sfi'
     preference :default_seo_title, :string, :default => 'Sanitary Fabricators Incorporated'
     preference :dismissed_spree_alerts, :string, :default => ''
-    preference :emails_sent_from, :string, :default => 'info@sanitaryfabricators.com'
+    preference :emails_sent_from, :string, :default => 'sales@sanitaryfabricators.com'
     preference :hide_cents, :boolean, :default => false
     preference :last_check_for_spree_alerts, :string, :default => nil
     preference :layout, :string, :default => 'spree/layouts/spree_application'
