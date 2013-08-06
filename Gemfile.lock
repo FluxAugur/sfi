@@ -8,6 +8,16 @@ GIT
       spree_core (~> 1.2)
 
 GIT
+  remote: git://github.com/conversionfoundry/spree-import-products.git
+  revision: 4bdcbb956187db66895a17cae883d781874c3dda
+  branch: 1_3_x
+  specs:
+    import_products (1.0.1)
+      delayed_job_active_record
+      spree_auth_devise
+      spree_core
+
+GIT
   remote: git://github.com/dotsi/spree_advanced_reporting.git
   revision: a35c21e7ba2b7b281abd3e2f1b869a2c71983e83
   branch: 1-3-stable
@@ -217,6 +227,11 @@ GEM
     deface (0.9.1)
       nokogiri (~> 1.5.0)
       rails (~> 3.1)
+    delayed_job (4.0.0)
+      activesupport (>= 3.0, < 4.1)
+    delayed_job_active_record (4.0.0)
+      activerecord (>= 3.0, < 4.1)
+      delayed_job (>= 3.0, < 4.1)
     devise (2.2.5)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -420,6 +435,7 @@ DEPENDENCIES
   binding_of_caller
   capistrano
   coffee-rails (~> 3.2.1)
+  import_products!
   jquery-rails (~> 2.2.0)
   mysql2
   rails (= 3.2.14)
