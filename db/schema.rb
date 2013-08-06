@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130805101250) do
+ActiveRecord::Schema.define(:version => 20130806055844) do
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -336,6 +336,16 @@ ActiveRecord::Schema.define(:version => 20130805101250) do
     t.integer  "option_type_id"
     t.datetime "created_at",     :null => false
     t.datetime "updated_at",     :null => false
+  end
+
+  create_table "spree_product_packages", :force => true do |t|
+    t.integer  "product_id",                :null => false
+    t.integer  "length",     :default => 0, :null => false
+    t.integer  "width",      :default => 0, :null => false
+    t.integer  "height",     :default => 0, :null => false
+    t.integer  "weight",     :default => 0, :null => false
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   create_table "spree_product_properties", :force => true do |t|
