@@ -1,13 +1,4 @@
 GIT
-  remote: git://github.com/DynamoMTL/spree_chimpy.git
-  revision: dd9e4d3592c1d2c5971a551e7e6cbd8ccbb287e7
-  branch: master
-  specs:
-    spree_chimpy (1.3.2)
-      mailchimp
-      spree_core (~> 1.2)
-
-GIT
   remote: git://github.com/dotsi/spree_advanced_reporting.git
   revision: a35c21e7ba2b7b281abd3e2f1b869a2c71983e83
   branch: 1-3-stable
@@ -16,6 +7,15 @@ GIT
       ruport (>= 1.6.3)
       ruport-util
       spree_core
+
+GIT
+  remote: git://github.com/iloveitaly/spree_chimpy.git
+  revision: 620be443c0b6e309915981c6da48f53890bea5f2
+  branch: master
+  specs:
+    spree_chimpy (1.3.2)
+      mailchimp
+      spree_core (~> 1.2)
 
 GIT
   remote: git://github.com/jdutil/spree_contact_us.git
@@ -271,7 +271,7 @@ GEM
       i18n (~> 0.4)
       json
     multi_json (1.7.8)
-    multi_xml (0.5.4)
+    multi_xml (0.5.5)
     multipart-post (1.2.0)
     mysql2 (0.3.13)
     net-scp (1.1.2)
