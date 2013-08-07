@@ -1,3 +1,7 @@
+set :stages, %w(production staging)
+set :default_stage, "staging"
+require 'capistrano/ext/multistage'
+
 require "bundler/capistrano"
 load 'deploy/assets'
 
@@ -5,10 +9,6 @@ set :application, "spree"
 set :user, 'spree'
 set :group, 'www-data'
 set :rails_env, 'production'
-
-role :web, '74.207.230.150'
-role :app, '74.207.230.150'
-role :db,  '74.207.230.150', :primary => true
 
 set :scm, :git
 set :repository, "git@github.com:FluxAugur/sfi.git"
