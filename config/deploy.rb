@@ -61,15 +61,6 @@ namespace :images do
 end
 after "bundle:install", "images:symlink"
 
-namespace :revision do
-  desc "Verify that local repository is in sync with remote."
-  task :verify, roles: :web do
-    unless `git rev-parse HEAD` == `git rev-parse origin/master`
-      puts "Deployment server is out of sync. Run 'git push'."
-    end
-  end
-end
-
 before 'deploy:assets:precompile', 'deploy:symlink_shared'
 
 before 'deploy:start', 'foreman:export'
