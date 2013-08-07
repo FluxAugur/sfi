@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sfi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,12 +22,12 @@
     <file path="/edit.html.erb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375709252809" ignored="false" />
     <file path="/spree_application.html.erb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375827860506" ignored="false" />
     <file path="/landing.css.scss" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375826647648" ignored="false" />
-    <file path="/deploy.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375839369246" ignored="false" />
+    <file path="/deploy.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375839430470" ignored="false" />
     <file path="/database.yml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375762833708" ignored="false" />
     <file path="/Rails sfi: production" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375773765176" ignored="false" />
     <file path="/a.dummy" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375772694327" ignored="false" />
     <file path="/production.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375795769557" ignored="false" />
-    <file path="/en.yml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375817124079" ignored="false" />
+    <file path="/en.yml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375840266461" ignored="false" />
     <file path="/app_configuration.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375829918227" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +62,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="61" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.23796791">
+            <state line="22" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="28" selection-start="242" selection-end="242" vertical-scroll-proportion="0.20053476">
               <folding />
             </state>
           </provider>
@@ -106,12 +117,12 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/initializers/spree.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/locales/en.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/sfi/landing.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" />
         <option value="$PROJECT_DIR$/app/models/spree/app_configuration.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/config/locales/en.yml" />
       </list>
     </option>
   </component>
@@ -277,42 +288,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sfi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sfi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sfi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sfi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sfi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -570,7 +545,7 @@
       <recent name="$PROJECT_DIR$/app/assets/stylesheets/sfi" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: sfi">
+  <component name="RunManager" selected="Rails.Production: sfi">
     <configuration default="false" name="jobs:work" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="sfi" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -1126,13 +1101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="244" selection-end="244" vertical-scroll-proportion="0.24064171">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sfi/landing.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="0.76638174">
@@ -1198,7 +1166,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="61" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.23796791">
+        <state line="22" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/en.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="28" selection-start="242" selection-end="242" vertical-scroll-proportion="0.20053476">
           <folding />
         </state>
       </provider>
