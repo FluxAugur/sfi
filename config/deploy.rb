@@ -65,7 +65,7 @@ namespace :revision do
   desc "Verify that local repository is in sync with remote."
   task :verify, roles: :web do
     unless `git rev-parse HEAD` == `git rev-parse origin/master`
-      run "git push"
+      puts "Deployment server is out of sync. Run 'git push'."
     end
   end
 end
