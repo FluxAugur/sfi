@@ -120,7 +120,7 @@
     <orderEntry type="library" scope="PROVIDED" name="savon (v1.2.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="select2-rails (v3.2.1, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree (v1.3.3@de2f50, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_active_shipping (v1.1.0@80d486, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_active_shipping (v1.1.0@401546, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_advanced_reporting (v2.0.0@a35c21, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_api (v1.3.3@de2f50, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_auth_devise (v1.0.0@b2b82f, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
@@ -131,7 +131,7 @@
     <orderEntry type="library" scope="PROVIDED" name="spree_gateway (v1.2.0.rc2@687584, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_promo (v1.3.3@de2f50, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_sample (v1.3.3@de2f50, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_social (v2.3.0@417bb3, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_social (v2.3.0@25e22d, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_static_content (v1.3.0.beta@b1aaf8, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_volume_pricing (v3.3.0@a6448f, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />

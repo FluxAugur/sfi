@@ -27,7 +27,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_active_shipping.git
-  revision: 80d4867b70e232557029731b45091879df946d64
+  revision: 40154622d84ec7d77c37cbf465cdf13420396229
   branch: 1-3-stable
   specs:
     spree_active_shipping (1.1.0)
@@ -56,7 +56,7 @@ GIT
 
 GIT
   remote: git://github.com/spree/spree_social.git
-  revision: 417bb39ac4a2c51c004ea8174ad33782913ebc93
+  revision: 25e22dc197d6c025d7f271c097d0bb0e666e8c70
   branch: 1-3-stable
   specs:
     spree_social (2.3.0)
