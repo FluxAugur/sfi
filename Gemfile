@@ -26,7 +26,7 @@ group :development do
   gem 'sqlite3'
 end
 
-group :production do
+group :production, :staging do
   gem 'mysql2'
   gem 'unicorn'
   gem 'foreman'
