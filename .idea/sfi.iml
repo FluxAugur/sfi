@@ -76,7 +76,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.23, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="money (v5.0.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.8, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.4, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_xml (v0.5.5, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multipart-post (v1.2.0, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.13, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-scp (v1.1.2, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
@@ -124,7 +124,7 @@
     <orderEntry type="library" scope="PROVIDED" name="spree_advanced_reporting (v2.0.0@a35c21, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_api (v1.3.3@de2f50, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_auth_devise (v1.0.0@b2b82f, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spree_chimpy (v1.3.2@dd9e4d, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spree_chimpy (v1.3.2@620be4, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_cmd (v1.3.3@de2f50, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_contact_us (v1.1.0@6a1152, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spree_core (v1.3.3@de2f50, RVM: ruby-1.9.3-p448 [sfi]) [gem]" level="application" />
