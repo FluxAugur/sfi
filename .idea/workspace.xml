@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sfi.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376051498300" ignored="false" />
-    <file path="/.gitignore" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375997438587" ignored="false" />
+    <file path="/.gitignore" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376058357273" ignored="false" />
     <file path="/Gemfile" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376051071584" ignored="false" />
     <file path="$PROJECT_DIR$/../spree/core/app/models/spree/payment.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375685252184" ignored="false" />
     <file path="/application.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375994514224" ignored="false" />
@@ -53,28 +54,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="347" column="10" selection-start="8428" selection-end="8432" vertical-scroll-proportion="0.33272395">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="35" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
+            <state line="19" column="8" selection-start="441" selection-end="441" vertical-scroll-proportion="0.29195803">
               <folding />
             </state>
           </provider>
@@ -117,12 +100,12 @@
         <option value="$PROJECT_DIR$/config/deploy/staging.rb" />
         <option value="$PROJECT_DIR$/config/deploy/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -184,6 +167,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sfi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sfi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sfi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -780,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.60497236">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="35" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0">
@@ -850,23 +840,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="347" column="10" selection-start="8428" selection-end="8432" vertical-scroll-proportion="0.33272395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="35" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
+        <state line="44" column="35" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.52797204">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+        <state line="10" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.26223776">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="347" column="10" selection-start="8428" selection-end="8432" vertical-scroll-proportion="0.33272395">
+        <state line="19" column="8" selection-start="441" selection-end="441" vertical-scroll-proportion="0.29195803">
           <folding />
         </state>
       </provider>
