@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sfi.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376051498300" ignored="false" />
+    <file path="/Dummy.txt" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376081441872" ignored="false" />
     <file path="/.gitignore" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376058357273" ignored="false" />
     <file path="/Gemfile" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376067251451" ignored="false" />
     <file path="$PROJECT_DIR$/../spree/core/app/models/spree/payment.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375685252184" ignored="false" />
@@ -30,7 +29,6 @@
     <file path="/app_configuration.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375829918227" ignored="false" />
     <file path="/styles.css.scss" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375841938635" ignored="false" />
     <file path="/development.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376015518816" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376067256296" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="31" selection-start="682" selection-end="682" vertical-scroll-proportion="0.3488372">
+            <state line="27" column="31" selection-start="682" selection-end="682" vertical-scroll-proportion="0.026833631">
               <folding />
             </state>
           </provider>
@@ -158,6 +156,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,23 +181,22 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.general" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sanitaryfabricators" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -607,15 +605,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rails.Production: sfi" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Development: sfi" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:schema:dump" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:drop" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:setup" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate:status" />
-      <item index="8" class="java.lang.String" itemvalue="Capistrano.deploy:symlink_shared" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.db:schema:dump" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.db:drop" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.db:setup" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate:status" />
+      <item index="4" class="java.lang.String" itemvalue="Capistrano.deploy:symlink_shared" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Production: sfi" />
+      <item index="6" class="java.lang.String" itemvalue="Rails.Development: sfi" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.spec" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -668,14 +666,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1270" y="672" width="1176" height="697" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.49911505" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.67" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26637167" sideWeight="0.6716667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27168143" sideWeight="0.6716667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833335" sideWeight="0.50088495" order="7" side_tool="true" content_ui="tabs" />
@@ -686,6 +683,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.49911505" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -756,98 +754,77 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config/spree.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="51" selection-start="863" selection-end="863" vertical-scroll-proportion="0.87016577">
-          <folding />
-        </state>
+        <state line="21" column="51" selection-start="863" selection-end="863" vertical-scroll-proportion="0.87016577" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="35" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="54" column="35" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/spree.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/spree/app_configuration.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="60" selection-start="6137" selection-end="6137" vertical-scroll-proportion="0.85359114">
-          <folding />
-        </state>
+        <state line="101" column="60" selection-start="6137" selection-end="6137" vertical-scroll-proportion="0.85359114" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="658" selection-end="658" vertical-scroll-proportion="0.53867406">
-          <folding />
-        </state>
+        <state line="13" column="29" selection-start="658" selection-end="658" vertical-scroll-proportion="0.53867406" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="30" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.3816568">
-          <folding />
-        </state>
+        <state line="68" column="30" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.3816568" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="59" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.52">
-          <folding />
-        </state>
+        <state line="61" column="59" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.52" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="347" column="10" selection-start="8428" selection-end="8432" vertical-scroll-proportion="0.33272395">
-          <folding />
-        </state>
+        <state line="347" column="10" selection-start="8428" selection-end="8432" vertical-scroll-proportion="0.33272395" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.26223776">
-          <folding />
-        </state>
+        <state line="10" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.26223776" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="31" selection-start="682" selection-end="682" vertical-scroll-proportion="0.026833631">
           <folding />
         </state>
       </provider>
@@ -855,13 +832,6 @@
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="38" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="682" selection-end="682" vertical-scroll-proportion="0.3488372">
           <folding />
         </state>
       </provider>
