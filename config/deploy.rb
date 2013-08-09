@@ -20,6 +20,8 @@ set :use_sudo, false
 set :default_run_options, pty: true
 set :ssh_options, forward_agent: true
 
+after 'deploy', 'deploy:cleanup'
+
 namespace :foreman do
   desc "Export the Procfile to Bluepill's .pill script"
   task :export, roles: :app do
@@ -68,5 +70,3 @@ after 'deploy:start', 'foreman:start'
 
 before 'deploy:restart', 'foreman:export'
 after 'deploy:restart', 'foreman:restart'
-
-after 'deploy', 'deploy:cleanup'
