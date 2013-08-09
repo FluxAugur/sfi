@@ -30,8 +30,6 @@ group :production, :staging do
   gem 'mysql2'
   gem 'unicorn'
   gem 'foreman'
-  gem 'awesome_print'
-  gem 'bluepill'
 end
 
 # To use jQuery (disabling jQuery 1.9.1 due to issues with Taxonomies)
