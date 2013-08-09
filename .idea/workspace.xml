@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="sfi.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376051498300" ignored="false" />
     <file path="/.gitignore" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376058357273" ignored="false" />
-    <file path="/Gemfile" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376064832262" ignored="false" />
+    <file path="/Gemfile" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376067251451" ignored="false" />
     <file path="$PROJECT_DIR$/../spree/core/app/models/spree/payment.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375685252184" ignored="false" />
     <file path="/application.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375994514224" ignored="false" />
     <file path="/spree_contact_us.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375693820889" ignored="false" />
@@ -29,7 +29,7 @@
     <file path="/app_configuration.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375829918227" ignored="false" />
     <file path="/styles.css.scss" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375841938635" ignored="false" />
     <file path="/development.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376015518816" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376066301258" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376067254696" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +54,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="174" selection-start="825" selection-end="825" vertical-scroll-proportion="0.72450805">
+            <state line="33" column="59" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="55" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+            <state line="3" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.07867133">
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -851,16 +851,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="55" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+        <state line="33" column="59" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="174" selection-start="825" selection-end="825" vertical-scroll-proportion="0.72450805">
+        <state line="3" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.07867133">
           <folding />
         </state>
       </provider>
