@@ -63,7 +63,7 @@ namespace :images do
 end
 after "bundle:install", "images:symlink"
 
-before 'deploy:assets:precompile', 'deploy:symlink_shared'
+before 'deploy:assets:precompile', 'deploy:create_symlink'
 
 before 'deploy:start', 'foreman:export'
 after 'deploy:start', 'foreman:start'
