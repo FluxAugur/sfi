@@ -3,7 +3,7 @@ set :default_stage, "staging"
 require 'capistrano/ext/multistage'
 
 #require "bundler/capistrano"
-#load 'deploy/assets'
+load 'deploy/assets'
 
 set :application, "spree"
 set :user, 'spree'
