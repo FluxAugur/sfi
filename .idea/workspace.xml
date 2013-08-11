@@ -20,7 +20,7 @@
     <file path="/edit.html.erb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375709252809" ignored="false" />
     <file path="/spree_application.html.erb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376015289457" ignored="false" />
     <file path="/landing.css.scss" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375826647648" ignored="false" />
-    <file path="/deploy.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376188714447" ignored="false" />
+    <file path="/deploy.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376190622433" ignored="false" />
     <file path="/database.yml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375944577523" ignored="false" />
     <file path="/Rails sfi: production" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375773765176" ignored="false" />
     <file path="/a.dummy" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375772694327" ignored="false" />
@@ -58,7 +58,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="2" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.9178322">
+            <state line="65" column="57" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.86538464">
               <folding />
             </state>
           </provider>
@@ -894,7 +894,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="2" selection-start="1816" selection-end="1816" vertical-scroll-proportion="0.9178322">
+        <state line="65" column="57" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.86538464">
           <folding />
         </state>
       </provider>
