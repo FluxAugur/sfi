@@ -25,7 +25,7 @@ after 'deploy', 'deploy:cleanup'
 namespace :foreman do
   desc "Export the Procfile to Bluepill's .pill script"
   task :export, roles: :app do
-    run "#{current_path}/bundle exec foreman export bluepill /data/#{application}/shared/config"
+    run "#{current_path} && bundle exec foreman export bluepill /data/#{application}/shared/config"
     sudo "bluepill load /data/#{application}/shared/config/#{application}.pill"
   end
 
@@ -63,7 +63,7 @@ namespace :images do
 end
 after "bundle:install", "images:symlink"
 
-before 'deploy:assets:precompile', 'deploy:create_symlink'
+before 'deploy:assets:precompile', 'deploy:symlink_shared'
 
 before 'deploy:start', 'foreman:export'
 after 'deploy:start', 'foreman:start'
