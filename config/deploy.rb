@@ -3,9 +3,9 @@ set :default_stage, "staging"
 require 'capistrano/ext/multistage'
 require "rvm/capistrano"
 
-before 'deploy:setup', 'rvm:install_rvm'
-before 'deploy:setup', 'rvm:install_ruby'
-before 'deploy:setup', 'rvm:create_gemset'
+#before 'deploy:setup', 'rvm:install_rvm'
+#before 'deploy:setup', 'rvm:install_ruby'
+#before 'deploy:setup', 'rvm:create_gemset'
 
 require "bundler/capistrano"
 set :application, "spree"
