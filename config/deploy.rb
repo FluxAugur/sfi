@@ -61,7 +61,7 @@ after "bundle:install", "images:symlink"
 namespace :revisions do
   desc "Check that local and remote git repositories are in sync."
   task :check_sync, roles: :web do
-    unless `git rev-parse HEAD` == `giv rev-parse origin/master`
+    unless `git rev-parse HEAD` == `git rev-parse origin/master`
       puts "WARNING: HEAD is not the same as origin/master"
       puts "Run `git push` to sync changes."
       exit

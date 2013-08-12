@@ -21,7 +21,7 @@
     <file path="/edit.html.erb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375709252809" ignored="false" />
     <file path="/spree_application.html.erb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376015289457" ignored="false" />
     <file path="/landing.css.scss" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375826647648" ignored="false" />
-    <file path="/deploy.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376273728858" ignored="false" />
+    <file path="/deploy.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376280214834" ignored="false" />
     <file path="/database.yml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375944577523" ignored="false" />
     <file path="/Rails sfi: production" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375773765176" ignored="false" />
     <file path="/a.dummy" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375772694327" ignored="false" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="12" selection-start="796" selection-end="796" vertical-scroll-proportion="0.082167834">
+            <state line="63" column="39" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.94755244">
               <folding />
             </state>
           </provider>
@@ -882,13 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.26223776">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="51" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
@@ -924,9 +917,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.26223776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="796" selection-end="796" vertical-scroll-proportion="0.082167834">
+        <state line="63" column="39" selection-start="2026" selection-end="2026" vertical-scroll-proportion="0.94755244">
           <folding />
         </state>
       </provider>
