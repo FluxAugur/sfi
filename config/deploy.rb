@@ -1,10 +1,13 @@
 set :stages, %w(production staging)
 set :default_stage, "staging"
 require 'capistrano/ext/multistage'
+require "rvm/capistrano"
+
+before 'deploy:setup', 'rvm:install_rvm'
+before 'deploy:setup', 'rvm:install_ruby'
+before 'deploy:setup', 'rvm:create_gemset'
 
 require "bundler/capistrano"
-#load 'deploy/assets'
-
 set :application, "spree"
 set :user, 'spree'
 set :group, 'www-data'
@@ -29,19 +32,11 @@ namespace :foreman do
     sudo "bluepill load /data/#{application}/shared/config/#{application}.pill"
   end
 
-  desc "Start the application services"
-  task :start, roles: :app do
-    sudo "bluepill #{application} start"
-  end
-
-  desc "Stop the application services"
-  task :stop, roles: :app do
-    sudo "bluepill #{application} stop"
-  end
-
-  desc "Restart the application services"
-  task :restart, roles: :app do
-    sudo "bluepill #{application} restart"
+  %w[start stop restart].each do |command|
+    desc "#{command} the application services"
+    task command, roles: :app, except: {no_release: true} do
+      sudo "bluepill #{application} #{command}"
+    end
   end
 end
 
@@ -62,6 +57,17 @@ namespace :images do
   end
 end
 after "bundle:install", "images:symlink"
+
+namespace :revisions do
+  desc "Check that local and remote git repositories are in sync."
+  task :check_sync, roles: :web do
+    unless `git rev-parse HEAD` == `giv rev-parse origin/master`
+      puts "WARNING: HEAD is not the same as origin/master"
+      puts "Run `git push` to sync changes."
+      exit
+    end
+  end
+end
 
 before 'deploy:assets:precompile', 'deploy:symlink_shared'
 

@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sfi.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376081441872" ignored="false" />
-    <file path="/.gitignore" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376058357273" ignored="false" />
+    <file path="/Dummy.txt" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376266597742" ignored="false" />
+    <file path="/.gitignore" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376267363715" ignored="false" />
     <file path="/Gemfile" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376083023760" ignored="false" />
     <file path="$PROJECT_DIR$/../spree/core/app/models/spree/payment.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375685252184" ignored="false" />
     <file path="/application.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376095991438" ignored="false" />
@@ -20,7 +23,7 @@
     <file path="/edit.html.erb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375709252809" ignored="false" />
     <file path="/spree_application.html.erb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376015289457" ignored="false" />
     <file path="/landing.css.scss" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375826647648" ignored="false" />
-    <file path="/deploy.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376190622433" ignored="false" />
+    <file path="/deploy.rb" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1376268901151" ignored="false" />
     <file path="/database.yml" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375944577523" ignored="false" />
     <file path="/Rails sfi: production" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375773765176" ignored="false" />
     <file path="/a.dummy" changelist="23fd07a9-5fb2-4744-8bab-3f8fdc61dfd8" time="1375772694327" ignored="false" />
@@ -49,6 +52,25 @@
     <groupTables value="false" />
     <sortChildren value="false" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../sanitaryfabricators/config/deploy.rb">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="5" column="13" selection-start="141" selection-end="485" vertical-scroll-proportion="-0.5244755">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="sfi" />
@@ -58,7 +80,16 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="57" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.86538464">
+            <state line="69" column="4" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.92132866">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="29" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,10 +151,10 @@
         <option value="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/database.example.yml" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
       </list>
     </option>
@@ -167,6 +198,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -224,22 +256,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.general" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sanitaryfabricators" />
+    <property name="options.lastSelected" value="preferences.general" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sanitaryfabricators/config/deploy.rb" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -713,10 +744,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297587" sideWeight="0.67" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.67" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27168143" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27699116" sideWeight="0.6716667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833335" sideWeight="0.50088495" order="7" side_tool="true" content_ui="tabs" />
@@ -726,6 +756,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.49911505" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -795,16 +826,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="658" selection-end="658" vertical-scroll-proportion="0.53867406" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="30" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.3816568" />
@@ -817,44 +838,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="51" selection-start="863" selection-end="863" vertical-scroll-proportion="0.5506993">
-          <folding />
-        </state>
+        <state line="21" column="51" selection-start="863" selection-end="863" vertical-scroll-proportion="0.5506993" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="32" selection-start="3130" selection-end="3130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="69" column="32" selection-start="3130" selection-end="3130" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="122" selection-end="122" vertical-scroll-proportion="0.07867133">
-          <folding />
-        </state>
+        <state line="3" column="30" selection-start="122" selection-end="122" vertical-scroll-proportion="0.07867133" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.ru">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="268" selection-end="268" vertical-scroll-proportion="0.18356644">
-          <folding />
-        </state>
+        <state line="7" column="43" selection-start="268" selection-end="268" vertical-scroll-proportion="0.18356644" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -866,14 +875,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="17" selection-start="619" selection-end="619" vertical-scroll-proportion="0.7604895">
+        <state line="29" column="17" selection-start="619" selection-end="619" vertical-scroll-proportion="0.7604895" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="2" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.41958043">
+        <state line="10" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.26223776">
           <folding />
         </state>
       </provider>
@@ -885,16 +906,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/../sanitaryfabricators/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="2" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="141" selection-end="485" vertical-scroll-proportion="-0.5244755">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="57" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.86538464">
+        <state line="69" column="4" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.92132866">
           <folding />
         </state>
       </provider>
