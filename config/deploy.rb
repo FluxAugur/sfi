@@ -52,8 +52,8 @@ end
 namespace :images do
   desc "Symlink shared public spree products folders on each release."
   task :symlink, :except => { :no_release => true } do
-    run "ln -nfs #{shared_path}/spree #{release_path}/public/spree"
     run "rm -rf #{release_path}/public/spree"
+    run "ln -nfs #{shared_path}/spree #{release_path}/public/spree"
   end
 end
 after "bundle:install", "images:symlink"
