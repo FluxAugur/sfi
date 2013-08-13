@@ -59,7 +59,7 @@ namespace :images do
     run "ln -nfs #{shared_path}/spree #{release_path}/public/spree"
   end
 end
-after "bundle:install", "images:symlink"
+#after "bundle:install", "images:symlink"
 
 namespace :revisions do
   desc "Check that local and remote git repositories are in sync."
