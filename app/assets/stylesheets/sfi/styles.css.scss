@@ -165,9 +165,8 @@ i.icon-basket {
   text-align: right;
 }
 
-.flash.notice,
-.flash.success {
-  background-color: transparent !important;
+.flash {
+  position: absolute;
 }
 /*Don't show static pages title on each page*/
 h1 {
