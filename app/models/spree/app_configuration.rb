@@ -22,7 +22,7 @@ module Spree
 
     # Alphabetized to more easily lookup particular preferences
     preference :address_requires_state, :boolean, :default => true # should state/state_name be required
-    preference :admin_interface_logo, :string, :default => 'sfi/bg/logo_SFI.png'
+    preference :admin_interface_logo, :string, :default => 'sfi/bg/logoSFI.png'
     preference :admin_products_per_page, :integer, :default => 50
     preference :allow_backorder_shipping, :boolean, :default => false # should only be true if you don't need to track inventory
     preference :allow_backorders, :boolean, :default => true
