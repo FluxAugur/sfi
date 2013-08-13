@@ -8,6 +8,8 @@ require "rvm/capistrano"
 #before 'deploy:setup', 'rvm:create_gemset'
 
 require "bundler/capistrano"
+load "deploy/assets"
+
 set :application, "spree"
 set :user, 'spree'
 set :group, 'www-data'
