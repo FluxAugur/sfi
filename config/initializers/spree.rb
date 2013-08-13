@@ -9,7 +9,6 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   config.site_name = 'Sanitary Fabricators Incorporated'
-  config.enable_mail_delivery = true
 end
 
 Spree.user_class = "Spree::User"
