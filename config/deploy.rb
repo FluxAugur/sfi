@@ -1,13 +1,14 @@
 set :stages, %w(production staging)
 set :default_stage, "staging"
-require "bundler/capistrano"
-
 require 'capistrano/ext/multistage'
 require "rvm/capistrano"
 
 #before 'deploy:setup', 'rvm:install_rvm'
 #before 'deploy:setup', 'rvm:install_ruby'
 #before 'deploy:setup', 'rvm:create_gemset'
+
+require "bundler/capistrano"
+load "deploy/assets"
 
 set :application, "spree"
 set :user, 'spree'
@@ -17,14 +18,15 @@ set :rails_env, 'production'
 set :scm, :git
 set :repository, "git@github.com:FluxAugur/sfi.git"
 set :branch, "master"
+set :scm_verbose, true
+set :git_shallow_clone, 1
 set :deploy_to, "/data/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
-set :default_run_options, pty: true
+default_run_options[:pty] = true
+default_run_options[:shell] = '/bin/bash --login'
 set :ssh_options, forward_agent: true
-
-after 'deploy', 'deploy:cleanup'
 
 namespace :foreman do
   desc "Export the Procfile to Bluepill's .pill script"
@@ -52,9 +54,9 @@ end
 
 namespace :images do
   desc "Symlink shared public spree products folders on each release."
-  task :symlink, :except => { :no_release => true } do
-    run "ln -nfs #{shared_path}/spree #{release_path}/public/spree"
+  task :symlink, except: {no_release: true} do
     run "rm -rf #{release_path}/public/spree"
+    run "ln -nfs #{shared_path}/spree #{release_path}/public/spree"
   end
 end
 after "bundle:install", "images:symlink"
@@ -77,3 +79,5 @@ after 'deploy:start', 'foreman:start'
 
 before 'deploy:restart', 'foreman:export'
 after 'deploy:restart', 'foreman:restart'
+
+after 'deploy', 'deploy:cleanup'
