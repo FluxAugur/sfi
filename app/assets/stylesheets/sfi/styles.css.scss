@@ -165,9 +165,8 @@ i.icon-basket {
   text-align: right;
 }
 
-.flash.notice,
-.flash.success {
-  background-color: transparent !important;
+.flash {
+  position: absolute;
 }
 /*Don't show static pages title on each page*/
 h1 {
@@ -206,7 +205,7 @@ h1 {
   height: 30px;
 }
 
-.home {
+.buy {
   width: 80px;
   -webkit-border-radius: 5px 5px 0px 0px;
   border-radius: 3px 0px 0px 3px;
@@ -218,7 +217,7 @@ h1 {
 
 .services,
 .sell,
-.buy,
+.about,
 .consulting {
   width: 140px;
 }
@@ -366,4 +365,9 @@ h1 {
   background-repeat: no-repeat;
   background-size: 495px 450px;
   padding-left: 20px;
+}
+
+/*Checkout page*/
+table#cart-detail tbody#line_items tr td[data-hook="cart_item_quantity"] .line_item_quantity {
+  width: 60px;
 }
