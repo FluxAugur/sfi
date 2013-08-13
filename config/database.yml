@@ -4,7 +4,7 @@ development:
   host: localhost
   database: spree_development
   pool: 5
-  username: spree
+  username: root
   password: welovebubbles
 
 # Warning: The database defined as "test" will be erased and
@@ -17,7 +17,7 @@ test:
   host: localhost
   database: spree_test
   pool: 5
-  username: spree
+  username: root
   password: welovebubbles
 
 production:
@@ -26,5 +26,5 @@ production:
   host: localhost
   database: spree_production
   pool: 5
-  username: spree
+  username: root
   password: welovebubbles
