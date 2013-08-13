@@ -20,7 +20,7 @@ set :deploy_to, "/data/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
-set :default_run_options, pty: true
+default_run_options[:shell] = '/bin/bash --login'
 set :ssh_options, forward_agent: true
 
 after 'deploy', 'deploy:cleanup'
