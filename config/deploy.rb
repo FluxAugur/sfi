@@ -1,5 +1,7 @@
 set :stages, %w(production staging)
 set :default_stage, "staging"
+require "bundler/capistrano"
+
 require 'capistrano/ext/multistage'
 require "rvm/capistrano"
 
@@ -7,7 +9,6 @@ require "rvm/capistrano"
 #before 'deploy:setup', 'rvm:install_ruby'
 #before 'deploy:setup', 'rvm:create_gemset'
 
-require "bundler/capistrano"
 set :application, "spree"
 set :user, 'spree'
 set :group, 'www-data'
