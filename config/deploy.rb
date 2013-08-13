@@ -26,8 +26,6 @@ default_run_options[:pty] = true
 default_run_options[:shell] = '/bin/bash --login'
 set :ssh_options, forward_agent: true
 
-after 'deploy', 'deploy:cleanup'
-
 namespace :foreman do
   desc "Export the Procfile to Bluepill's .pill script"
   task :export, roles: :app do
@@ -59,7 +57,7 @@ namespace :images do
     run "ln -nfs #{shared_path}/spree #{release_path}/public/spree"
   end
 end
-#after "bundle:install", "images:symlink"
+after "bundle:install", "images:symlink"
 
 namespace :revisions do
   desc "Check that local and remote git repositories are in sync."
@@ -79,3 +77,5 @@ after 'deploy:start', 'foreman:start'
 
 before 'deploy:restart', 'foreman:export'
 after 'deploy:restart', 'foreman:restart'
+
+after 'deploy', 'deploy:cleanup'
