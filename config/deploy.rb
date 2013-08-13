@@ -3,9 +3,9 @@ set :default_stage, "staging"
 require 'capistrano/ext/multistage'
 require "rvm/capistrano"
 
-before 'deploy:setup', 'rvm:install_rvm'
-before 'deploy:setup', 'rvm:install_ruby'
-before 'deploy:setup', 'rvm:create_gemset'
+#before 'deploy:setup', 'rvm:install_rvm'
+#before 'deploy:setup', 'rvm:install_ruby'
+#before 'deploy:setup', 'rvm:create_gemset'
 
 require "bundler/capistrano"
 set :application, "spree"
@@ -16,10 +16,13 @@ set :rails_env, 'production'
 set :scm, :git
 set :repository, "git@github.com:FluxAugur/sfi.git"
 set :branch, "master"
+set :scm_verbose, true
+set :git_shallow_clone, 1
 set :deploy_to, "/data/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
+default_run_options[:pty] = true
 default_run_options[:shell] = '/bin/bash --login'
 set :ssh_options, forward_agent: true
 
@@ -69,7 +72,7 @@ namespace :revisions do
   end
 end
 
-before 'deploy:assets:precompile', 'deploy:symlink_shared'
+#before 'deploy:assets:precompile', 'deploy:symlink_shared'
 
 before 'deploy:start', 'foreman:export'
 after 'deploy:start', 'foreman:start'
