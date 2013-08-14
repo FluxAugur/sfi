@@ -9,15 +9,6 @@ GIT
       spree_core
 
 GIT
-  remote: git://github.com/iloveitaly/spree_chimpy.git
-  revision: 620be443c0b6e309915981c6da48f53890bea5f2
-  branch: master
-  specs:
-    spree_chimpy (1.3.2)
-      mailchimp
-      spree_core (~> 1.2)
-
-GIT
   remote: git://github.com/jdutil/spree_contact_us.git
   revision: 6a1152f02a24ac71a380f2b64d822a0c77d07953
   branch: 1-3-stable
@@ -254,8 +245,6 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mailchimp (0.0.9)
-      httparty
     mailfactory (1.4.0)
       mime-types (>= 1.13.1)
     mime-types (1.23)
@@ -431,7 +420,6 @@ DEPENDENCIES
   spree!
   spree_advanced_reporting!
   spree_auth_devise!
-  spree_chimpy!
   spree_contact_us!
   spree_gateway!
   spree_social!
