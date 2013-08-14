@@ -25,14 +25,12 @@ body {
   width: 960px;
   z-index: -1;
   background-color: #adadad;
-  height: 1000px;
+  min-height: 300px;
+  max-height: 1000px;
   margin-top: -20px;
 }
 
 #sfi-headermetaltexture {
-  left: 0px;
-  top: 0px;
-  position: absolute;
   width: 960px;
   height: 182px;
   margin-left: 20px;
@@ -63,10 +61,9 @@ body {
 
 #godaddy-siteseal,
 #siteseal {
-  top: 80px;
   margin-left: auto;
   margin-right: auto;
-  z-index: 8;
+  margin-top: 40px;
   width: 150px;
   height: 50px;
 }
@@ -287,6 +284,10 @@ ul#products li {
 #products,
 #taxonomies {
   padding-top: 20px;
+}
+
+#taxonomies {
+  width: 220px;
 }
 
 ul#products li .product-image {
