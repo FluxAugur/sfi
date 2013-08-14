@@ -25,6 +25,7 @@ group :development do
   gem 'awesome_print'
   gem 'binding_of_caller'
   gem 'sqlite3'
+  gem 'thin'
 end
 
 group :production, :staging do
@@ -46,7 +47,7 @@ gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '1-3-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '1-3-stable'
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '1-3-stable'
 gem 'spree_volume_pricing', github: 'spree/spree_volume_pricing', branch: '1-3-stable'
-gem 'spree_active_shipping', github: 'spree/spree_active_shipping', branch: '1-3-stable'
+# gem 'spree_active_shipping', github: 'spree/spree_active_shipping', branch: '1-3-stable'
 gem 'spree_social', github: 'spree/spree_social', branch: '1-3-stable'
 
 # To use unofficial (third-party) Spree Commerce related gems
