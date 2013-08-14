@@ -26,6 +26,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'sqlite3'
   gem 'thin'
+  gem 'rails-footnotes', '>= 3.7.9'
 end
 
 group :production, :staging do

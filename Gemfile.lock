@@ -322,6 +322,8 @@ GEM
       activesupport (= 3.2.14)
       bundler (~> 1.0)
       railties (= 3.2.14)
+    rails-footnotes (3.7.9)
+      rails (>= 3.0.0)
     railties (3.2.14)
       actionpack (= 3.2.14)
       activesupport (= 3.2.14)
@@ -415,6 +417,7 @@ DEPENDENCIES
   jquery-rails (~> 2.2.0)
   mysql2
   rails (= 3.2.14)
+  rails-footnotes (>= 3.7.9)
   rvm-capistrano
   sass-rails (~> 3.2.3)
   spree!
