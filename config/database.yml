@@ -1,5 +1,11 @@
 development:
-  adapter: sqlite3
-  database: db/sfi_development.sqlite3
-  pool: 5
-  timeout: 5000
+  # adapter: sqlite3
+  # database: db/sfi_development.sqlite3
+  # pool: 5
+  # timeout: 5000
+  adapter: mysql2
+  encoding: utf8
+  database: spree_prod_final
+  username: SFI
+  password: welovebubbles
+  host: localhost

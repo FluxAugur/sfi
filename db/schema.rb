@@ -466,8 +466,6 @@ ActiveRecord::Schema.define(:version => 20130805093841) do
     t.datetime "updated_at", :null => false
   end
 
-  add_index "spree_shipping_categories", ["id"], :name => "sqlite_autoindex_spree_shipping_categories_1", :unique => true
-
   create_table "spree_shipping_methods", :force => true do |t|
     t.string   "name"
     t.integer  "zone_id"
