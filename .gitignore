@@ -8,10 +8,13 @@
 .gitignore
 
 # Ignore bundler config
-#/.bundle
+/.bundle
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
+
+# Ignore the database config
+/config/database.*
 
 # Ignore all logfiles and tempfiles.
 /log/*.log

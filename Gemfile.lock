@@ -252,7 +252,7 @@ GEM
     httpauth (0.2.0)
     httpi (1.1.1)
       rack
-    i18n (0.6.4)
+    i18n (0.6.5)
     journey (1.0.4)
     jquery-rails (2.2.2)
       railties (>= 3.0, < 5.0)
@@ -276,7 +276,7 @@ GEM
     money (5.0.0)
       i18n (~> 0.4)
       json
-    multi_json (1.7.8)
+    multi_json (1.7.9)
     multi_xml (0.5.5)
     multipart-post (1.2.0)
     mysql2 (0.3.13)

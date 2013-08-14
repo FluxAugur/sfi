@@ -38,8 +38,10 @@ end
 # To use jQuery (disabling jQuery 1.9.1 due to issues with Taxonomies)
 gem 'jquery-rails', '~> 2.2.0'
 
-# To use official Spree Commerce related gems
+# To use Synaptian Spree Commerce gem
 gem 'spree', github: 'synaptian/spree', branch: '1-3-stable'
+
+# To use official Spree Commerce related gems
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '1-3-stable'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '1-3-stable'
 gem 'spree_static_content', github: 'spree/spree_static_content', branch: '1-3-stable'

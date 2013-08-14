@@ -371,3 +371,12 @@ h1 {
 table#cart-detail tbody#line_items tr td[data-hook="cart_item_quantity"] .line_item_quantity {
   width: 60px;
 }
+
+/* Hide order bill/ship address attributes state id */
+input#order_bill_address_attributes_state_name {
+  visibility: hidden;
+}
+
+input#order_ship_address_attributes_state_name {
+  visibility: hidden;
+}
