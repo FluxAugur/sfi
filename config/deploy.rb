@@ -31,13 +31,13 @@ set :ssh_options, forward_agent: true
 namespace :foreman do
   desc "Export the Procfile to Bluepill's .pill script"
   task :export, roles: :app do
-    run "cd #{current_path} && bundle exec foreman export bluepill /data/#{application}/shared/config"
-    sudo "bluepill load /data/#{application}/shared/config/#{application}.pill"
+    run "cd #{current_path} && bundle exec foreman export bluepill #{shared_path}/config"
+    run "cd #{current_path} && bluepill load --no-privileged #{shared_path}config/#{application}.pill"
   end
 
   %w[start stop restart].each do |command|
     desc "#{command} the application services"
-    task command, roles: :app, except: {no_release: true} do
+    task command, roles: :app  do
       sudo "bluepill #{application} #{command}"
     end
   end

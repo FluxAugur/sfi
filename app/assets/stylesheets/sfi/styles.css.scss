@@ -61,12 +61,22 @@ body {
   z-index: 8;
 }
 
+#godaddy-siteseal,
+#siteseal {
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 8;
+  width: 150px;
+  height: 50px;
+}
+
 #sfi-textsitemap {
   left: 78px;
   top: 40px;
   position: absolute;
-  width: 65px;
-  height: 93px;
+  width: 75px;
+  height: 120px;
   z-index: 9;
   line-height: 12pt;
   font-weight: bold;
@@ -205,7 +215,7 @@ h1 {
   height: 30px;
 }
 
-.buy {
+.home {
   width: 80px;
   -webkit-border-radius: 5px 5px 0px 0px;
   border-radius: 3px 0px 0px 3px;
@@ -217,7 +227,7 @@ h1 {
 
 .services,
 .sell,
-.about,
+.buy,
 .consulting {
   width: 140px;
 }
@@ -370,4 +380,13 @@ h1 {
 /*Checkout page*/
 table#cart-detail tbody#line_items tr td[data-hook="cart_item_quantity"] .line_item_quantity {
   width: 60px;
+}
+
+/* Hide order bill/ship address attributes state id */
+input#order_bill_address_attributes_state_name {
+  visibility: hidden;
+}
+
+input#order_ship_address_attributes_state_name {
+  visibility: hidden;
 }
