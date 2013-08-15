@@ -17,6 +17,15 @@ GIT
       spree_core (~> 1.3.1)
 
 GIT
+  remote: git://github.com/spree/spree_active_shipping.git
+  revision: 8ea7bfbd20b7c79068670c5cdf92ed8c63b17595
+  branch: 1-3-stable
+  specs:
+    spree_active_shipping (1.1.0)
+      active_shipping (~> 0.9.13)
+      spree_core (~> 1.0)
+
+GIT
   remote: git://github.com/spree/spree_auth_devise.git
   revision: b2b82f1bbe4b47a0713bcf70af8b3c17fa39c0d0
   branch: 1-3-stable
@@ -124,6 +133,12 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
+    active_shipping (0.9.15)
+      active_utils (>= 1.0.1)
+      activesupport (>= 2.3.5)
+      builder
+      i18n
+      json (>= 1.5.1)
     active_utils (2.0.0)
       activesupport (>= 2.3.11)
       i18n
@@ -476,6 +491,7 @@ DEPENDENCIES
   rvm-capistrano
   sass-rails (~> 3.2.3)
   spree!
+  spree_active_shipping!
   spree_advanced_reporting!
   spree_auth_devise!
   spree_contact_us!

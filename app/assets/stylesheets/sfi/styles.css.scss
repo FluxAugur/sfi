@@ -99,7 +99,8 @@ a, a:visited, a:hover{
   margin: 0px;
   border-style: solid;
   border-width: 1px;
-  min-height: 490px
+  min-height: 490px;
+  height: 720px;
 }
 
 #sfi-searchboxdiv {
@@ -357,8 +358,9 @@ h1 {
 
 /*Contact page*/
 #contact-left-column {
+  float: left;
   width: 50%;
-  height: 640px;
+  height: 680px;
 }
 
 #top-image {
@@ -373,7 +375,7 @@ h1 {
 #contact-right-column {
   float: right;
   width: 50%;
-  height: 640px;
+  height: 680px;
 }
 
 /*Checkout page*/
