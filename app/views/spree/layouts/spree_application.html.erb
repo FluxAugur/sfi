@@ -46,16 +46,16 @@
         <%= link_to "Consulting", "/consulting", class: 'consulting'  %>
       </li>
       <li>
-        <%= link_to "Contact", "/contact-us", class: 'contact'  %>
+        <%= link_to "Contact", "/contacts/new", class: 'contact'  %>
       </li>
       <li>
-        <%= link_to "About Us", "/about-us", class: 'about' %>
+        <%= link_to "About", "/about-us", class: 'about' %>
       </li>
     </ul>
   </div>
   <div id="sfi-searchboxdiv">
     <%= form_tag("/products", method: "get") do %>
-        <%= search_field_tag 'keywords', nil, placeholder: 'Search equipment', class: 'sfi-searchbox', id:'search' %>
+        <%= search_field_tag 'keywords', nil, placeholder: 'Search our Shop', class: 'sfi-searchbox', id:'search' %>
         <%= image_submit_tag("sfi/findicon.png", id: 'sfi-findicon') %>
     <% end %>
   </div>
@@ -77,9 +77,9 @@
         <%= link_to "Sell", "/sell-equipment" %><br />
         <%= link_to "Consulting", "/consulting" %><br />
         <%= link_to "Services", "/services" %><br />
-        <%= link_to "Contact", "/contact-us" %><br />
-        <%= link_to "About Us", "/about-us" %><br />
-        <%= link_to "Our Policies", "/our-policies" %><br />
+        <%= link_to "Contact", "/contacts/new" %><br />
+        <%= link_to "About", "/about-us" %><br />
+        <%= link_to "Policies", "/our-policies" %><br />
       </div>
       <div id="sfi-textcopyright">&copy;2013 SFI Industries. All rights reserved.</div>
       <div id="godaddy-siteseal">

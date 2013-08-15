@@ -259,15 +259,18 @@ h1 {
   padding-left: 20px;
   padding-top: 6px;
 }
-.sell-title {
+.sell-title,
+.consulting-title {
   background-color: #AD7C40;
 }
 
-.services-title {
+.services-title,
+.about-title {
   background-color: #C97C3A;
 }
 
-.buy-title {
+.buy-title,
+.contacts-title {
   background-color: #AD4B40;
 }
 
@@ -369,7 +372,6 @@ h1 {
 #contact-right-column {
   float: right;
   width: 60%;
-  background-image: url("/assets/sfi/sfi-photo01.png");
   background-position: top right;
   height: 460px;
   background-repeat: no-repeat;
