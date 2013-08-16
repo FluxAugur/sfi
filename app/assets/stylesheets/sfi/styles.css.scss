@@ -59,14 +59,51 @@ body {
   z-index: 8;
 }
 
-#godaddy-siteseal,
-#siteseal {
+/*Site seals*/
+#godaddy-siteseal {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  width: 150px;
-  height: 50px;
+  width: 250px;
+  height: 100px;
 }
+
+#siteseal {
+  float:left;
+  margin-top: 30px;
+}
+
+.AuthorizeNetSeal {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 90px;
+  font: normal 9px arial,helvetica,san-serif;
+  line-height: 10px;
+  float: right;
+}
+
+.AuthorizeNetSeal a {
+  text-decoration:none;
+  color: black;
+}
+
+.AuthorizeNetSeal a:visited,
+.AuthorizeNetSeal a:active {
+  color: black;
+}
+
+.AuthorizeNetSeal a:hover {
+  text-decoration:underline;
+  color:black;
+}
+
+.AuthorizeNetSeal a img {
+  border:0px;
+  margin:0px;
+  text-decoration:none;
+}
+/*End site seals*/
 
 #sfi-textsitemap {
   left: 78px;
