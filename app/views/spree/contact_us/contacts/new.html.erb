@@ -27,11 +27,13 @@
       <%= f.text_field :subject, class: 'required' %>
     </p>
   <% end %>
-  <p>
+  <div id="contact-message">
+    <p>
     <%= f.label :message %>
     <span class="required">*</span><br/>
     <%= f.text_area :message, class: 'required' %>
-  </p>
+    </p>
+  </div>
   <p>
     <%= f.submit t('.submit'), :alt => t('.submit'), :id => 'contact_us_contact_submit', :title => t('.submit') %>
   </p>
@@ -39,14 +41,18 @@
 </div>
 <div id="contact-right-column">
   <div id="contact-info">
-    <label>SHIPPING ADDRESS</label>
+    <div id="contact-info-right">
+      <label>SHIPPING ADDRESS</label>
       <p>Sanitary Fabricators, Inc.
-      <br />145 Industrial Lane
-      <br />Bennettsville, SC 29512</p>
-    <label>MAILING ADDRESS</label>
+        <br />145 Industrial Lane
+        <br />Bennettsville, SC 29512</p>
+    </div>
+    <div id="contact-info-left">
+      <label>MAILING ADDRESS</label>
       <p>Sanitary Fabricators, Inc.
-      <br />P.O. Box 328
-      <br />McColl, SC  29570</p>
+        <br />P.O. Box 328
+        <br />McColl, SC  29570</p>
+    </div>
     <label>CONTACT</label>
       <p>Office: 843-479-2616
       <br />After Hours: 704-724-7125
