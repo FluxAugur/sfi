@@ -28,6 +28,7 @@ group :development do
   gem 'sqlite3'
   gem 'thin'
   gem 'rails-footnotes', '>= 3.7.9'
+  gem 'quiet_assets'
 end
 
 group :production, :staging do
