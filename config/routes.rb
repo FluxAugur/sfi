@@ -1,5 +1,4 @@
 Sfi::Application.routes.draw do
-
   # This line mounts Spree's routes at the root of your application.
   # This means, any requests to URLs such as /products, will go to Spree::ProductsController.
   # If you would like to change where this engine is mounted, simply change the :at option to something different.
@@ -62,5 +61,13 @@ Sfi::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
-  match '(*path)/(*path)' => redirect('/')
+
+  constraints(host: /sanitaryfabricators.com/) do
+    root to: redirect("http://www.sanitaryfabricators.com")
+    match '/*path', to: redirect { |param| "http://www.sanitaryfabricators.com/#{params[:path]}" }
+  end
+
+  match '/checkout' => 'spree/checkout#edit', state: 'payment', as: :checkout
+  match '/checkout/update/set_shipping' => 'spree/checkout#set_shipping', as: :set_shipping
+  match '/home', controller: 'spree/homepage', action: 'show'
 end
