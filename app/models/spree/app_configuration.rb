@@ -54,7 +54,7 @@ module Spree
     preference :hide_cents, :boolean, :default => false
     preference :last_check_for_spree_alerts, :string, :default => nil
     preference :layout, :string, :default => 'spree/layouts/spree_application'
-    preference :logo, :string, :default => 'sfi/bg/logo_SFI.png'
+    preference :logo, :string, :default => 'sfi/logoSFI.png'
     preference :max_level_in_taxons_menu, :integer, :default => 3 # maximum nesting level in taxons menu
     preference :max_quantity, :integer, :default => 1000 # Maximum allowable quantity when checking out
     preference :override_actionmailer_config, :boolean, :default => true
