@@ -46,6 +46,14 @@ GIT
       spree_core (~> 1.0)
 
 GIT
+  remote: git://github.com/spree/spree_print_invoice.git
+  revision: 632c2d3b0bc7ce67bf1c703c8611fadd46d94877
+  specs:
+    spree_print_invoice (1.0.0)
+      prawn (= 0.8.4)
+      spree_core (~> 1.3.0)
+
+GIT
   remote: git://github.com/spree/spree_social.git
   revision: 25e22dc197d6c025d7f271c097d0bb0e666e8c70
   branch: 1-3-stable
@@ -349,6 +357,16 @@ GEM
       activerecord (~> 3.0)
     polyglot (0.3.3)
     posix-spawn (0.3.6)
+    prawn (0.8.4)
+      prawn-core (>= 0.8.4, < 0.9)
+      prawn-core (>= 0.8.4, < 0.9)
+      prawn-layout (>= 0.8.4, < 0.9)
+      prawn-layout (>= 0.8.4, < 0.9)
+      prawn-security (>= 0.8.4, < 0.9)
+      prawn-security (>= 0.8.4, < 0.9)
+    prawn-core (0.8.4)
+    prawn-layout (0.8.4)
+    prawn-security (0.8.4)
     pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -371,6 +389,8 @@ GEM
     pry-stack_explorer (0.4.9.1)
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
+    quiet_assets (1.0.2)
+      railties (>= 3.1, < 5.0)
     rabl (0.7.2)
       activesupport (>= 2.3.14)
       multi_json (~> 1.0)
@@ -486,6 +506,7 @@ DEPENDENCIES
   jazz_hands
   jquery-rails (~> 2.2.0)
   mysql2
+  quiet_assets
   rails (= 3.2.14)
   rails-footnotes (>= 3.7.9)
   rvm-capistrano
@@ -496,6 +517,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_contact_us!
   spree_gateway!
+  spree_print_invoice!
   spree_social!
   spree_static_content!
   spree_volume_pricing!
