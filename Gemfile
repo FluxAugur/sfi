@@ -9,7 +9,7 @@ gem 'bundler'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -58,6 +58,7 @@ gem 'spree_contact_us', github: 'jdutil/spree_contact_us', branch: '1-3-stable'
 # gem 'synergy_inventory_management', github: 'synaptian/synergy_inventory_management', branch: 'master'
 # gem 'spree_chimpy', github: 'iloveitaly/spree_chimpy', branch: 'master'
 # gem 'import_products', github: 'conversionfoundry/spree-import-products', branch: '1_3_x'
+# gem 'spree_print_invoice', github: 'dotsi/spree_print_invoice', branch: 'master'
 
 # To use Twitter Bootstrap with Spree (requires spree ~> '2.0.0')
 # gem 'spree_bootstrap', github: 'jdutil/spree_bootstrap', branch: 'master'
