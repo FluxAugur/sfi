@@ -45,7 +45,7 @@ module Spree
     preference :currency_symbol_position, :string, :default => "before"
     preference :currency_thousands_separator, :string, :default => ","
     preference :display_currency, :boolean, :default => true
-    preference :default_country_id, :integer
+    preference :default_country_id, :integer, :default => 49
     preference :default_meta_description, :string, :default => 'Sanitary Fabricators Incorporated'
     preference :default_meta_keywords, :string, :default => 'sanitary fabricators incorporated, sfi'
     preference :default_seo_title, :string, :default => 'Sanitary Fabricators Incorporated'
@@ -54,7 +54,7 @@ module Spree
     preference :hide_cents, :boolean, :default => false
     preference :last_check_for_spree_alerts, :string, :default => nil
     preference :layout, :string, :default => 'spree/layouts/spree_application'
-    preference :logo, :string, :default => 'sfi/bg/logo_SFI.png'
+    preference :logo, :string, :default => 'sfi/logoSFI.png'
     preference :max_level_in_taxons_menu, :integer, :default => 3 # maximum nesting level in taxons menu
     preference :max_quantity, :integer, :default => 1000 # Maximum allowable quantity when checking out
     preference :override_actionmailer_config, :boolean, :default => true

@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/dotsi/spree_advanced_reporting.git
+  remote: https://github.com/dotsi/spree_advanced_reporting.git
   revision: a35c21e7ba2b7b281abd3e2f1b869a2c71983e83
   branch: 1-3-stable
   specs:
@@ -9,7 +9,7 @@ GIT
       spree_core
 
 GIT
-  remote: git://github.com/jdutil/spree_contact_us.git
+  remote: https://github.com/jdutil/spree_contact_us.git
   revision: 6a1152f02a24ac71a380f2b64d822a0c77d07953
   branch: 1-3-stable
   specs:
@@ -17,7 +17,7 @@ GIT
       spree_core (~> 1.3.1)
 
 GIT
-  remote: git://github.com/spree/spree_active_shipping.git
+  remote: https://github.com/spree/spree_active_shipping.git
   revision: 8ea7bfbd20b7c79068670c5cdf92ed8c63b17595
   branch: 1-3-stable
   specs:
@@ -26,7 +26,7 @@ GIT
       spree_core (~> 1.0)
 
 GIT
-  remote: git://github.com/spree/spree_auth_devise.git
+  remote: https://github.com/spree/spree_auth_devise.git
   revision: 6a50345b73bcec614a8fbd358a2367c00c8ab56f
   branch: 1-3-stable
   specs:
@@ -37,7 +37,7 @@ GIT
       spree_core
 
 GIT
-  remote: git://github.com/spree/spree_gateway.git
+  remote: https://github.com/spree/spree_gateway.git
   revision: 68758463a28cea89c3cba2ddc64e7a3f281505e0
   branch: 1-3-stable
   specs:
@@ -46,7 +46,7 @@ GIT
       spree_core (~> 1.0)
 
 GIT
-  remote: git://github.com/spree/spree_social.git
+  remote: https://github.com/spree/spree_social.git
   revision: 25e22dc197d6c025d7f271c097d0bb0e666e8c70
   branch: 1-3-stable
   specs:
@@ -60,7 +60,7 @@ GIT
       spree_core (~> 1.3.0)
 
 GIT
-  remote: git://github.com/spree/spree_static_content.git
+  remote: https://github.com/spree/spree_static_content.git
   revision: b1aaf840db14993c9a7e9e60ed19f8aa421862a9
   branch: 1-3-stable
   specs:
@@ -68,7 +68,7 @@ GIT
       spree_core (~> 1.3.0)
 
 GIT
-  remote: git://github.com/spree/spree_volume_pricing.git
+  remote: https://github.com/spree/spree_volume_pricing.git
   revision: a6448f3b86878b5f93c27c5b1633259fd164325b
   branch: 1-3-stable
   specs:
@@ -76,8 +76,8 @@ GIT
       spree_core (~> 1.1)
 
 GIT
-  remote: git://github.com/synaptian/spree.git
-  revision: 3f7622f3151bed04e6619f425162eb96d5cf8ca5
+  remote: https://github.com/synaptian/spree.git
+  revision: a01e5ea67bfa98583bfc3e29c74a70b94ef7d0e2
   branch: 1-3-stable
   specs:
     spree (1.3.3)
