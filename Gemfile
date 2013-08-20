@@ -22,7 +22,7 @@ group :development do
   gem 'capistrano'
   gem 'rvm-capistrano'
   gem 'better_errors'
-  gem 'jazz_hands'
+  #gem 'jazz_hands'
   gem 'awesome_print'
   gem 'binding_of_caller'
   gem 'sqlite3'
@@ -59,7 +59,7 @@ gem 'spree_contact_us', github: 'jdutil/spree_contact_us', branch: '1-3-stable'
 # gem 'synergy_inventory_management', github: 'synaptian/synergy_inventory_management', branch: 'master'
 # gem 'spree_chimpy', github: 'iloveitaly/spree_chimpy', branch: 'master'
 # gem 'import_products', github: 'conversionfoundry/spree-import-products', branch: '1_3_x'
-gem 'spree_print_invoice', github: 'webionate/spree_print_invoice', branch: 'spree-1-3'
+#gem 'spree_print_invoice', github: 'webionate/spree_print_invoice', branch: 'spree-1-3'
 
 # To use Twitter Bootstrap with Spree (requires spree ~> '2.0.0')
 # gem 'spree_bootstrap', github: 'jdutil/spree_bootstrap', branch: 'master'
