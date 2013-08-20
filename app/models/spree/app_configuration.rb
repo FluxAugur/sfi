@@ -34,8 +34,8 @@ module Spree
     preference :alternative_billing_phone, :boolean, :default => false # Request extra phone for bill addr
     preference :alternative_shipping_phone, :boolean, :default => false # Request extra phone for ship addr
     preference :always_put_site_name_in_title, :boolean, :default => true
-    preference :auto_capture, :boolean, :default => true # automatically capture the credit card (as opposed to just authorize and capture later)
-    preference :cache_static_content, :boolean, :default => true
+    preference :auto_capture, :boolean, :default => false # automatically capture the credit card (as opposed to just authorize and capture later)
+    preference :cache_static_content, :boolean, :default => false
     preference :check_for_spree_alerts, :boolean, :default => true
     preference :checkout_zone, :string, :default => nil # replace with the name of a zone if you would like to limit the countries
     preference :company, :boolean, :default => true # Request company field for billing and shipping addr
@@ -54,7 +54,7 @@ module Spree
     preference :hide_cents, :boolean, :default => false
     preference :last_check_for_spree_alerts, :string, :default => nil
     preference :layout, :string, :default => 'spree/layouts/spree_application'
-    preference :logo, :string, :default => 'sfi/logoSFI.png'
+    preference :logo, :string, :default => ''
     preference :max_level_in_taxons_menu, :integer, :default => 3 # maximum nesting level in taxons menu
     preference :max_quantity, :integer, :default => 1000 # Maximum allowable quantity when checking out
     preference :override_actionmailer_config, :boolean, :default => true
@@ -67,7 +67,7 @@ module Spree
     preference :show_descendents, :boolean, :default => true
     preference :show_only_complete_orders_by_default, :boolean, :default => true
     preference :show_raw_product_description, :boolean, :default => false
-    preference :show_zero_stock_products, :boolean, :default => true
+    preference :show_zero_stock_products, :boolean, :default => false
     preference :show_variant_full_price, :boolean, :default => false #Displays variant full price or difference with product price. Default false to be compatible with older behavior
     preference :show_products_without_price, :boolean, :default => false
     preference :site_name, :string, :default => 'Sanitary Fabricators Incorporated'
