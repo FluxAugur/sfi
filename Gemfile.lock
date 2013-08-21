@@ -46,6 +46,14 @@ GIT
       spree_core (~> 1.0)
 
 GIT
+  remote: git://github.com/spree/spree_print_invoice.git
+  revision: 632c2d3b0bc7ce67bf1c703c8611fadd46d94877
+  specs:
+    spree_print_invoice (1.0.0)
+      prawn (= 0.8.4)
+      spree_core (~> 1.3.0)
+
+GIT
   remote: git://github.com/spree/spree_social.git
   revision: 25e22dc197d6c025d7f271c097d0bb0e666e8c70
   branch: 1-3-stable
@@ -319,6 +327,42 @@ GEM
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
+<<<<<<< HEAD
+=======
+    posix-spawn (0.3.6)
+    prawn (0.8.4)
+      prawn-core (>= 0.8.4, < 0.9)
+      prawn-core (>= 0.8.4, < 0.9)
+      prawn-layout (>= 0.8.4, < 0.9)
+      prawn-layout (>= 0.8.4, < 0.9)
+      prawn-security (>= 0.8.4, < 0.9)
+      prawn-security (>= 0.8.4, < 0.9)
+    prawn-core (0.8.4)
+    prawn-layout (0.8.4)
+    prawn-security (0.8.4)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    pry-debugger (0.2.2)
+      debugger (~> 1.3)
+      pry (~> 0.9.10)
+    pry-doc (0.4.6)
+      pry (>= 0.9)
+      yard (>= 0.8)
+    pry-git (0.2.3)
+      diffy
+      grit
+      pry (>= 0.9.8)
+    pry-rails (0.3.2)
+      pry (>= 0.9.10)
+    pry-remote (0.1.7)
+      pry (~> 0.9)
+      slop (~> 3.0)
+    pry-stack_explorer (0.4.9.1)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
+>>>>>>> 37f2a544dfc92d9e1ffde5c097a0b9ea58c06378
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rabl (0.7.2)
@@ -444,6 +488,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_contact_us!
   spree_gateway!
+  spree_print_invoice!
   spree_social!
   spree_static_content!
   spree_volume_pricing!
