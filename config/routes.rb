@@ -5,7 +5,7 @@ Sfi::Application.routes.draw do
   #
   # We ask that you don't use the :as option here, as Spree relies on it being the default of "spree"
   mount Spree::Core::Engine, :at => '/'
-          # The priority is based upon order of creation:
+  # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:
@@ -62,12 +62,12 @@ Sfi::Application.routes.draw do
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
 
-  constraints(host: /sanitaryfabricators.com/) do
-    root to: redirect("http://www.sanitaryfabricators.com")
-    match '/*path', to: redirect { |param| "http://www.sanitaryfabricators.com/#{params[:path]}" }
-  end
+  #  constraints(host: /sanitaryfabricators.com/) do
+  #    root to: redirect("http://www.sanitaryfabricators.com")
+  #    match '/*path', to: redirect { |param| "http://www.sanitaryfabricators.com/#{params[:path]}" }
+  #  end
 
-  match '/checkout' => 'spree/checkout#edit', state: 'payment', as: :checkout
-  match '/checkout/update/set_shipping' => 'spree/checkout#set_shipping', as: :set_shipping
-  match '/home', controller: 'spree/homepage', action: 'show'
+  # match '/checkout' => 'spree/checkout#edit', state: 'payment', as: :checkout
+  # match '/checkout/update/set_shipping' => 'spree/checkout#set_shipping', as: :set_shipping
+  # match '/home', controller: 'spree/homepage', action: 'show'
 end
