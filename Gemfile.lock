@@ -46,15 +46,6 @@ GIT
       spree_core (~> 1.0)
 
 GIT
-  remote: git://github.com/spree/spree_print_invoice.git
-  revision: 632c2d3b0bc7ce67bf1c703c8611fadd46d94877
-  branch: master
-  specs:
-    spree_print_invoice (1.0.0)
-      prawn (= 0.8.4)
-      spree_core (~> 1.3.0)
-
-GIT
   remote: git://github.com/spree/spree_social.git
   revision: 25e22dc197d6c025d7f271c097d0bb0e666e8c70
   branch: 1-3-stable
@@ -126,9 +117,19 @@ GIT
     spree_sample (1.3.3)
       spree_core (= 1.3.3)
 
+GIT
+  remote: git://github.com/webionate/spree_print_invoice.git
+  revision: db1c643ff3dd8a482f91f13f57add29ccdf0575c
+  branch: spree-1-3
+  specs:
+    spree_print_invoice (1.0.1)
+      prawn (= 0.12)
+      spree_core (~> 1.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    Ascii85 (1.0.2)
     actionmailer (3.2.14)
       actionpack (= 3.2.14)
       mail (~> 2.5.4)
@@ -174,6 +175,7 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     acts_as_list (0.1.4)
+    afm (0.2.0)
     akami (1.2.0)
       gyoku (>= 0.4.0)
       nokogiri (>= 1.4.0)
@@ -243,6 +245,7 @@ GEM
       thor (>= 0.13.6)
     gyoku (0.4.6)
       builder (>= 2.1.2)
+    hashery (2.1.0)
     hashie (2.0.5)
     highline (1.6.18)
     hike (1.2.3)
@@ -321,19 +324,21 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
+    pdf-reader (1.3.3)
+      Ascii85 (~> 1.0.0)
+      afm (~> 0.2.0)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
     pdf-writer (1.1.8)
       color (>= 1.4.0)
       transaction-simple (~> 1.3)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
-    prawn (0.8.4)
-      prawn-core (>= 0.8.4, < 0.9)
-      prawn-layout (>= 0.8.4, < 0.9)
-      prawn-security (>= 0.8.4, < 0.9)
-    prawn-core (0.8.4)
-    prawn-layout (0.8.4)
-    prawn-security (0.8.4)
+    prawn (0.12.0)
+      pdf-reader (>= 0.9.0)
+      ttfunk (~> 1.0.2)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rabl (0.7.2)
@@ -371,6 +376,7 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    ruby-rc4 (0.1.5)
     rubyzip (0.9.9)
     ruport (1.6.3)
       fastercsv
@@ -415,6 +421,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     truncate_html (0.5.5)
+    ttfunk (1.0.3)
     tzinfo (0.3.37)
     uglifier (2.1.2)
       execjs (>= 0.3.0)

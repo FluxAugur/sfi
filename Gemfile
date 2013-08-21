@@ -56,7 +56,7 @@ gem 'spree_social', github: 'spree/spree_social', branch: '1-3-stable'
 # To use unofficial (third-party) Spree Commerce related gems
 gem 'spree_advanced_reporting', github: 'dotsi/spree_advanced_reporting', branch: '1-3-stable'
 gem 'spree_contact_us', github: 'jdutil/spree_contact_us', branch: '1-3-stable'
-gem 'spree_print_invoice' , github: 'spree/spree_print_invoice', branch: 'master'
+gem 'spree_print_invoice' , github: 'webionate/spree_print_invoice', branch: 'spree-1-3'
 # gem 'synergy_inventory_management', github: 'synaptian/synergy_inventory_management', branch: 'master'
 # gem 'spree_chimpy', github: 'iloveitaly/spree_chimpy', branch: 'master'
 # gem 'import_products', github: 'conversionfoundry/spree-import-products', branch: '1_3_x'

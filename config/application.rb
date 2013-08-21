@@ -71,5 +71,8 @@ module Sfi
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.1'
+
+    # Set the logo path for printing invoices
+    config.print_invoice_logo_path ='sfi/logoSFI.png'
   end
 end
