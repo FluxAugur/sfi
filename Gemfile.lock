@@ -362,7 +362,6 @@ GEM
     pry-stack_explorer (0.4.9.1)
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
->>>>>>> 37f2a544dfc92d9e1ffde5c097a0b9ea58c06378
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rabl (0.7.2)
