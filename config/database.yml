@@ -6,6 +6,6 @@ development:
   adapter: mysql2
   encoding: utf8
   database: spree_prod_final
-  username: SFI
+  username: spree
   password: welovebubbles
   host: localhost
