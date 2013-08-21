@@ -14,3 +14,4 @@ end
 Spree.user_class = "Spree::User"
 
 Spree::PrintInvoice::Config.set(:print_invoice_logo_path => 'sfi/pdf-logo.png')
+Spree::PrintInvoice::Config.set(:print_buttons => "invoice,packaging_slip") #comma separated list
