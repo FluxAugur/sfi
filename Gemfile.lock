@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/Siesna/spree_social_products.git
+  revision: d9904eda21627937921e40cb7954d718f2da1f51
+  branch: 1-3-stable
+  specs:
+    spree_social_products (1.3)
+      spree_core (~> 1.3)
+
+GIT
   remote: git://github.com/dotsi/spree_advanced_reporting.git
   revision: a35c21e7ba2b7b281abd3e2f1b869a2c71983e83
   branch: 1-3-stable
@@ -86,7 +94,7 @@ GIT
 
 GIT
   remote: git://github.com/synaptian/spree.git
-  revision: a01e5ea67bfa98583bfc3e29c74a70b94ef7d0e2
+  revision: 82b53f8257b63732edf197d9733cd67661220ddb
   branch: 1-3-stable
   specs:
     spree (1.3.3)
@@ -348,10 +356,7 @@ GEM
     posix-spawn (0.3.6)
     prawn (0.8.4)
       prawn-core (>= 0.8.4, < 0.9)
-      prawn-core (>= 0.8.4, < 0.9)
       prawn-layout (>= 0.8.4, < 0.9)
-      prawn-layout (>= 0.8.4, < 0.9)
-      prawn-security (>= 0.8.4, < 0.9)
       prawn-security (>= 0.8.4, < 0.9)
     prawn-core (0.8.4)
     prawn-layout (0.8.4)
@@ -505,6 +510,7 @@ DEPENDENCIES
   spree_gateway!
   spree_print_invoice!
   spree_social!
+  spree_social_products!
   spree_static_content!
   spree_volume_pricing!
   sqlite3
