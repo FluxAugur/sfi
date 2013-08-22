@@ -72,7 +72,7 @@ namespace :revisions do
   end
 end
 
-before 'deploy:assets:precompile', 'deploy:symlink_shared'
+before 'deploy:precompile_assets', 'deploy:symlink_shared'
 
 before 'deploy:start', 'foreman:export'
 after 'deploy:start', 'foreman:start'
