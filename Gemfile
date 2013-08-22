@@ -57,15 +57,10 @@ gem 'spree_print_invoice' , :git => 'git://github.com/spree/spree_print_invoice.
 # To use unofficial (third-party) Spree Commerce related gems
 gem 'spree_advanced_reporting', github: 'dotsi/spree_advanced_reporting', branch: '1-3-stable'
 gem 'spree_contact_us', github: 'jdutil/spree_contact_us', branch: '1-3-stable'
-<<<<<<< HEAD
 gem "spree_social_products", :git => "git://github.com/Siesna/spree_social_products.git", branch: '1-3-stable'
-=======
-gem 'spree_print_invoice' , github: 'webionate/spree_print_invoice', branch: 'spree-1-3'
->>>>>>> 1d70518d12c22e336d67a6f3132d244f9e80aa1c
 # gem 'synergy_inventory_management', github: 'synaptian/synergy_inventory_management', branch: 'master'
 # gem 'spree_chimpy', github: 'iloveitaly/spree_chimpy', branch: 'master'
 # gem 'import_products', github: 'conversionfoundry/spree-import-products', branch: '1_3_x'
-gem 'spree_print_invoice', github: 'dotsi/spree_print_invoice', branch: 'master'
 
 # To use Twitter Bootstrap with Spree (requires spree ~> '2.0.0')
 # gem 'spree_bootstrap', github: 'jdutil/spree_bootstrap', branch: 'master'
