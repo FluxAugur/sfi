@@ -17,15 +17,6 @@ GIT
       spree_core
 
 GIT
-  remote: git://github.com/dotsi/spree_print_invoice.git
-  revision: 0cbb308d998ec4efe02e4dea735a7cf83c02fad5
-  branch: master
-  specs:
-    spree_print_invoice (1.0.0)
-      prawn (= 0.8.4)
-      spree_core (>= 1.2.0)
-
-GIT
   remote: git://github.com/jdutil/spree_contact_us.git
   revision: 6a1152f02a24ac71a380f2b64d822a0c77d07953
   branch: 1-3-stable
@@ -61,6 +52,15 @@ GIT
     spree_gateway (1.2.0.rc2)
       savon (~> 1.2)
       spree_core (~> 1.0)
+
+GIT
+  remote: git://github.com/spree/spree_print_invoice.git
+  revision: 632c2d3b0bc7ce67bf1c703c8611fadd46d94877
+  branch: master
+  specs:
+    spree_print_invoice (1.0.0)
+      prawn (= 0.8.4)
+      spree_core (~> 1.3.0)
 
 GIT
   remote: git://github.com/spree/spree_social.git
@@ -134,19 +134,9 @@ GIT
     spree_sample (1.3.3)
       spree_core (= 1.3.3)
 
-GIT
-  remote: git://github.com/webionate/spree_print_invoice.git
-  revision: db1c643ff3dd8a482f91f13f57add29ccdf0575c
-  branch: spree-1-3
-  specs:
-    spree_print_invoice (1.0.1)
-      prawn (= 0.12)
-      spree_core (~> 1.3.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    Ascii85 (1.0.2)
     actionmailer (3.2.14)
       actionpack (= 3.2.14)
       mail (~> 2.5.4)
@@ -192,7 +182,6 @@ GEM
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     acts_as_list (0.1.4)
-    afm (0.2.0)
     akami (1.2.0)
       gyoku (>= 0.4.0)
       nokogiri (>= 1.4.0)
@@ -262,7 +251,6 @@ GEM
       thor (>= 0.13.6)
     gyoku (0.4.6)
       builder (>= 2.1.2)
-    hashery (2.1.0)
     hashie (2.0.5)
     highline (1.6.18)
     hike (1.2.3)
@@ -341,19 +329,12 @@ GEM
       activesupport (>= 2.3.2)
       cocaine (>= 0.0.2)
       mime-types
-    pdf-reader (1.3.3)
-      Ascii85 (~> 1.0.0)
-      afm (~> 0.2.0)
-      hashery (~> 2.0)
-      ruby-rc4
-      ttfunk
     pdf-writer (1.1.8)
       color (>= 1.4.0)
       transaction-simple (~> 1.3)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
-    posix-spawn (0.3.6)
     prawn (0.8.4)
       prawn-core (>= 0.8.4, < 0.9)
       prawn-layout (>= 0.8.4, < 0.9)
@@ -361,28 +342,8 @@ GEM
     prawn-core (0.8.4)
     prawn-layout (0.8.4)
     prawn-security (0.8.4)
-    pry (0.9.12.2)
-      coderay (~> 1.0.5)
-      method_source (~> 0.8)
-      slop (~> 3.4)
-    pry-debugger (0.2.2)
-      debugger (~> 1.3)
-      pry (~> 0.9.10)
-    pry-doc (0.4.6)
-      pry (>= 0.9)
-      yard (>= 0.8)
-    pry-git (0.2.3)
-      diffy
-      grit
-      pry (>= 0.9.8)
-    pry-rails (0.3.2)
-      pry (>= 0.9.10)
-    pry-remote (0.1.7)
-      pry (~> 0.9)
-      slop (~> 3.0)
-    pry-stack_explorer (0.4.9.1)
-      binding_of_caller (>= 0.7)
-      pry (>= 0.9.11)
+    quiet_assets (1.0.2)
+      railties (>= 3.1, < 5.0)
     rabl (0.7.2)
       activesupport (>= 2.3.14)
       multi_json (~> 1.0)
@@ -418,7 +379,6 @@ GEM
       polyamorous (~> 0.5.0)
     rdoc (3.12.2)
       json (~> 1.4)
-    ruby-rc4 (0.1.5)
     rubyzip (0.9.9)
     ruport (1.6.3)
       fastercsv
@@ -463,7 +423,6 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     truncate_html (0.5.5)
-    ttfunk (1.0.3)
     tzinfo (0.3.37)
     uglifier (2.1.2)
       execjs (>= 0.3.0)
