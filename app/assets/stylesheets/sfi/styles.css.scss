@@ -60,17 +60,39 @@ body {
 }
 
 /*Site seals*/
-#godaddy-siteseal {
+#siteseals {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  width: 250px;
+  margin-top: 30px;
+  width: 400px;
   height: 100px;
+  text-align: center;
 }
 
-#siteseal {
-  float: left;
-  margin-top: 30px;
+#synaptian {
+
+}
+
+#synaptian-logo {
+  vertical-align: middle;
+  margin-bottom: 8px;
+}
+
+#rails-spree {
+
+}
+
+#rails-logo {
+  vertical-align: middle;
+}
+
+#spree-logo {
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+#godaddy-siteseal {
+
 }
 
 .AuthorizeNetSeal {
