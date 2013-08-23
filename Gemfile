@@ -55,6 +55,7 @@ gem 'spree_social', github: 'spree/spree_social', branch: '1-3-stable'
 gem 'spree_print_invoice' , github: 'spree/spree_print_invoice'
 
 # To use unofficial (third-party) Spree Commerce related gems
+gem 'spree_address_book', github: 'Siesna/spree_address_book', branch: 'current_user-in-checkout-fix'
 gem 'spree_advanced_reporting', github: 'dotsi/spree_advanced_reporting', branch: '1-3-stable'
 gem 'spree_contact_us', github: 'jdutil/spree_contact_us', branch: '1-3-stable'
 gem "spree_social_products", github: "Siesna/spree_social_products", branch: '1-3-stable'
