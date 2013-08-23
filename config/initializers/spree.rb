@@ -10,6 +10,11 @@ Spree::AppConfiguration.class_eval do
   preference :facebook_app_id, :string
 end
 
+# Uncomment a single line to change the OAuth default url from /user/auth/:provider to the url indicated
+# Spree::SocialConfig[:path_prefix] = 'member' # for /member/auth/:provider
+# Spree::SocialConfig[:path_prefix] = 'profile' # for /profile/auth/:provider
+Spree::SocialConfig[:path_prefix] = '' # for /auth/:provider
+
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
