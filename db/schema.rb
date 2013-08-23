@@ -11,7 +11,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130815025636) do
+ActiveRecord::Schema.define(:version => 20130823193854) do
+
+  create_table "delayed_jobs", :force => true do |t|
+    t.integer  "priority",   :default => 0, :null => false
+    t.integer  "attempts",   :default => 0, :null => false
+    t.text     "handler",                   :null => false
+    t.text     "last_error"
+    t.datetime "run_at"
+    t.datetime "locked_at"
+    t.datetime "failed_at"
+    t.string   "locked_by"
+    t.string   "queue"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
+  add_index "delayed_jobs", ["priority", "run_at"], :name => "delayed_jobs_priority"
 
   create_table "spree_activators", :force => true do |t|
     t.string   "description"
@@ -44,6 +60,8 @@ ActiveRecord::Schema.define(:version => 20130815025636) do
     t.integer  "country_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.integer  "user_id"
+    t.datetime "deleted_at"
   end
 
   add_index "spree_addresses", ["firstname"], :name => "index_addresses_on_firstname"
@@ -100,6 +118,21 @@ ActiveRecord::Schema.define(:version => 20130815025636) do
     t.string   "calculable_type"
     t.datetime "created_at",      :null => false
     t.datetime "updated_at",      :null => false
+  end
+
+  create_table "spree_chimpy_order_sources", :force => true do |t|
+    t.integer  "order_id"
+    t.string   "campaign_id"
+    t.string   "email_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "spree_chimpy_subscribers", :force => true do |t|
+    t.string   "email",                        :null => false
+    t.boolean  "subscribed", :default => true
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
   end
 
   create_table "spree_configurations", :force => true do |t|
@@ -314,6 +347,19 @@ ActiveRecord::Schema.define(:version => 20130815025636) do
   end
 
   add_index "spree_prices", ["variant_id"], :name => "index_spree_prices_on_variant_id"
+
+  create_table "spree_product_imports", :force => true do |t|
+    t.string   "data_file_file_name"
+    t.string   "data_file_content_type"
+    t.integer  "data_file_file_size"
+    t.datetime "data_file_updated_at"
+    t.datetime "created_at",             :null => false
+    t.datetime "updated_at",             :null => false
+    t.text     "product_ids"
+    t.string   "state"
+    t.datetime "failed_at"
+    t.datetime "completed_at"
+  end
 
   create_table "spree_product_option_types", :force => true do |t|
     t.integer  "position"
@@ -620,6 +666,7 @@ ActiveRecord::Schema.define(:version => 20130815025636) do
     t.datetime "updated_at",                                           :null => false
     t.string   "spree_api_key",          :limit => 48
     t.datetime "remember_created_at"
+    t.boolean  "subscribed"
   end
 
   add_index "spree_users", ["email"], :name => "email_idx_unique", :unique => true
