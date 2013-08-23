@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: spree_prod_final
+  username: spree
+  password: welovebubbles
+  host: localhost
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: spree_prod_final
+  username: spree
+  password: welovebubbles
+  host: localhost

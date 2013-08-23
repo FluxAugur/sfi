@@ -1,0 +1,98 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="<%= I18n.locale %>"><!--<![endif]-->
+<head data-hook="inside head">
+  <%= render :partial => 'spree/shared/head' %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= stylesheet_link_tag "sfi/styles", :media => "all" %>
+  <%= csrf_meta_tags %>
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
+<div id="sfi-container">
+  <!--header-->
+
+  <% if spree_current_user %>
+      <div id="sfi-login">
+        <%if spree_current_user.has_spree_role?("admin") %>
+            <a style="padding-right: 20px;" href="/admin">Admin</a>
+        <% end %>
+        <a style="padding-right: 20px;" href="/account">My Account</a><a href="/logout">Logout</a></div>
+  <% else %>
+      <div id="sfi-login"><a href="/login">Login</a></div>
+  <% end %>
+
+  <div id="sfi-headermetaltexture"></div>
+  <div id="sfi-navbar">
+    <ul class="item">
+      <li>
+        <%= link_to "Shop", "/products", class: 'buy'  %>
+      </li>
+      <li>
+        <a href="#" class="blank">&nbsp;</a>
+      </li>
+      <li>
+        <%= link_to "Sell", "/sell-equipment", class: 'sell'  %>
+      </li>
+      <li>
+        <%= link_to "Services", "/services", class: 'services'  %>
+      </li>
+      <li>
+        <%= link_to "Consulting", "/consulting", class: 'consulting'  %>
+      </li>
+      <li>
+        <%= link_to "Contact", "/contacts/new", class: 'contact'  %>
+      </li>
+      <li>
+        <%= link_to "About", "/about-us", class: 'about' %>
+      </li>
+    </ul>
+  </div>
+  <div id="sfi-searchboxdiv">
+    <%= form_tag("/products", method: "get") do %>
+        <%= search_field_tag 'keywords', nil, placeholder: 'Search our Shop', class: 'sfi-searchbox', id:'search' %>
+        <%= image_submit_tag("sfi/findicon.png", id: 'sfi-findicon') %>
+    <% end %>
+  </div>
+  <div id="sfi-logoSFI"></div>
+  <div id="sfi-phone"><a href="/cart"><i class="icon-basket"></i> </a>843-479-2616</div>
+
+  <!--content-->
+  <div id="sfi-bandorange"></div>
+  <div id="sfi-boxwhite" class="row" data-hook>
+    <%= breadcrumbs(@taxon) %>
+    <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve" %>" data-hook>
+      <%= flash_messages %>
+      <%= yield %>
+    </div>
+    <!--footer-->
+    <div id="sfi-footergray">
+      <div id="sfi-textsitemap">
+        <%= link_to "Shop", "/products" %><br />
+        <%= link_to "Sell", "/sell-equipment" %><br />
+        <%= link_to "Consulting", "/consulting" %><br />
+        <%= link_to "Services", "/services" %><br />
+        <%= link_to "Contact", "/contacts/new" %><br />
+        <%= link_to "About", "/about-us" %><br />
+        <%= link_to "Policies", "/our-policies" %><br />
+      </div>
+      <div id="godaddy-siteseal">
+        <span id="siteseal">
+          <script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=kwWyK3u6O97OA2iK2YdwqWpAOLKSN2fGhW0El8pCw3VEFygfP1e0QnfxCmq"></script>
+        </span>
+        <span class="AuthorizeNetSeal">
+          <script type="text/javascript" language="javascript">var ANS_customer_id="d6723de1-f436-4a9f-9f09-5b94646bcfe2";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script>
+          <br /> <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Accept Credit Cards</a>
+        </span>
+      </div>
+      <div id="sfi-textcopyright">&copy;2013 SFI Industries. All rights reserved.</div>
+    </div>
+  </div>
+</div>
+<%= render :partial => 'spree/shared/google_analytics' %>
+</body>
+</html>
