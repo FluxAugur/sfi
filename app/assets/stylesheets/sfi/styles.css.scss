@@ -69,17 +69,9 @@ body {
   text-align: center;
 }
 
-#synaptian {
-
-}
-
 #synaptian-logo {
   vertical-align: middle;
   margin-bottom: 8px;
-}
-
-#rails-spree {
-
 }
 
 #rails-logo {
@@ -91,8 +83,15 @@ body {
   margin-bottom: 15px;
 }
 
-#godaddy-siteseal {
+#godaddy-authorize {
+  width: 65%;
+  margin: auto;
+  margin-top: -10px;
+}
 
+#godaddy-siteseal {
+  float: left;
+  margin-top: 30px;
 }
 
 .AuthorizeNetSeal {
