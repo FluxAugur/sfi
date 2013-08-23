@@ -6,13 +6,13 @@
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
 
+Spree::AppConfiguration.class_eval do
+  preference :facebook_app_id, :string
+end
+
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   config.site_name = 'Sanitary Fabricators Incorporated'
+  config.facebook_app_id = "322607251209215"
 end
-
-# Uncomment a single line to change the OAuth default url from /user/auth/:provider to the url indicated
-# Spree::SocialConfig[:path_prefix] = 'member' # for /member/auth/:provider
-# Spree::SocialConfig[:path_prefix] = 'profile' # for /profile/auth/:provider
-Spree::SocialConfig[:path_prefix] = '' # for /auth/:provider
