@@ -5,13 +5,14 @@
 #
 # In order to initialize a setting do:
 # config.setting_name = 'new value'
+
+Spree::AppConfiguration.class_eval do
+  preference :facebook_app_id, :string
+end
+
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   config.site_name = 'Sanitary Fabricators Incorporated'
+  config.facebook_app_id = "322607251209215"
 end
-
-Spree.user_class = "Spree::User"
-
-Spree::PrintInvoice::Config.set(:print_invoice_logo_path => "sfi/psd-logo.png")
-Spree::PrintInvoice::Config.set(:print_buttons => "invoice,packaging_slip") #comma separated list
