@@ -28,17 +28,24 @@ default_run_options[:pty] = true
 default_run_options[:shell] = '/bin/bash --login'
 set :ssh_options, forward_agent: true
 
+namespace :bluepill do
+  task :setup do
+    run "rvm alias create #{application} `rvm current`"
+    run "rvm wrapper #{application} --no-links bluepill"
+  end
+end
+
 namespace :foreman do
   desc "Export the Procfile to Bluepill's .pill script"
   task :export, roles: :app do
     run "cd #{current_path} && bundle exec foreman export --app spree --user spree bluepill #{shared_path}/config"
-    sudo "bluepill load #{shared_path}/config/#{application}.pill"
+    sudo "#{rvm_path}/wrappers/#{application}/bluepill load #{shared_path}/config/#{application}.pill"
   end
 
   %w[start stop restart].each do |command|
     desc "#{command} the application services"
     task command, roles: :app  do
-      run "bluepill --no-privileged #{application} #{command}"
+      run "bluepill #{application} #{command}"
     end
   end
 end
