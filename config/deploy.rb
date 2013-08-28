@@ -45,7 +45,7 @@ namespace :foreman do
   %w[start stop restart].each do |command|
     desc "#{command} the application services"
     task command, roles: :app  do
-      run "bluepill #{application} #{command}"
+      sudo "#{rvm_path}wrappers/#{application}/bluepill #{application} #{command}"
     end
   end
 end
